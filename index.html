@@ -1,51 +1,1437 @@
 
-<!doctype html>
-<html dir="ltr">
+<!DOCTYPE html>
+<!--[if lt IE 7]>  <html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="vi" dir="ltr"><![endif]-->
+<!--[if IE 7]>     <html class="no-js ie ie7 lt-ie9 lt-ie8" lang="vi" dir="ltr"><![endif]-->
+<!--[if IE 8]>     <html class="no-js ie ie8 lt-ie9" lang="vi" dir="ltr"><![endif]-->
+<!--[if IE 9]>     <html class="no-js ie ie9" lang="vi" dir="ltr"><![endif]-->
+<!--[if IEMobile]> <html class="no-js ie ie-mobile" lang="vi" dir="ltr"><![endif]-->
+<!--[if gt IE 8 | !IE]><!-->
+<html class="no-js" lang="vi" dir="ltr">
+<!--<![endif]-->
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=1240,shrink-to-fit=no">
-<meta name="shopee:git-sha" content="e0bfbca16e96e6edc584e56253ea1e93cf49789b">
-<meta name="shopee:version" content="sw-WEBFE-MKP-2025.03.19.v2-1-emergency">
-<link rel="icon" type="image/png" sizes="32x32" href="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/icon_favicon_1_32.[contenthash:base64:6].png">
-<link rel="icon" type="image/png" sizes="96x96" href="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/icon_favicon_1_96.[contenthash:base64:6].png">
-<link rel="preload" href="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/bundle.d71e9381febb7426.css" as="style" data-modern="true">
-<link rel="modulepreload" href="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/webpack-runtime.89ae6929ba5bdc8f.js" data-modern="true">
-<link rel="modulepreload" href="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/sfu-stable.c9421dc694385c15.js" data-modern="true">
-<link rel="modulepreload" href="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/entry-modules.0e3b7c63af4b4014.js" data-modern="true">
-<link rel="modulepreload" href="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/bundle.5934345d987ab0d2.js" data-modern="true">
-<script data-webfe="config">
-/** actually app id */
-      window.__PAGE_ID__ = 1;
-      window.__APP_ID__ = 1;
-      window.__LOCALE__ = 'VN';
-      window.__ENV__ = 'live';
-      window.__META_APP_DETAILS__ = {"apmsPromotionLiveKey":"a5d1f0ec50dfb01a8f66086733613696fe5dceeb8c440326ca3340240183c965","apmsPromotionNonLiveKey":"a4d4f25de385e05a506e0b6dd6facfc10c0961935d9e447a5d6737d0997b6b49"};
-      window.__ASSETS__ = {"CHECKOUT_CONFIGS":{"live":{"display_fast_edt_opc_web":{"default":"hide_fast_edt","id|tw|th|vn|ph|my|sg":"display_fast_edt"},"invalid_address_softblock_popup_limit":{"default":{"cooldown_days":30,"popup_limit":5},"vn":{"cooldown_days":30,"popup_limit":3}},"opc_revamp_web":{"tw|th|vn|ph|sg|br|mx|co|cl":{"mode":"revamp","revamp_newPaymentEntrance":true}},"scp_definition_phase_2_rw":{"default":"control","id|vn|ph|my|sg|br|th":"treatment"}}},"DL_ENABLED_MALL_REGIONS":["SG","MY","ID","TH","VN","PH","TW"],"ENABLE_NON_STAGE_4_POLYFILLS":{"enabled":false},"FESTIVAL_SKIN_V2":{"error_messages":null,"error_msg":null,"data":null,"error":null},"MART_CONFIG":{"shop":{"shopid":469064007,"username":"shopee_supermarket"},"header":{"bg_color":"#005dc7"}},"MMS_IMAGE_DOMAIN":{"AR":"down-ar.img.susercontent.com","BR":"down-br.img.susercontent.com","CL":"down-cl.img.susercontent.com","CO":"down-co.img.susercontent.com","ES":"down-es.img.susercontent.com","FR":"down-fr.img.susercontent.com","ID":"down-id.img.susercontent.com","IN":"down-in.img.susercontent.com","MX":"down-mx.img.susercontent.com","MY":"down-my.img.susercontent.com","PH":"down-ph.img.susercontent.com","PL":"down-pl.img.susercontent.com","SG":"down-sg.img.susercontent.com","TH":"down-th.img.susercontent.com","TW":"down-tw.img.susercontent.com","VN":"down-vn.img.susercontent.com"},"PB_CONFIG":{"disable_ssr_mode":true,"enable-languages-blocking":false,"enable-locales-blocking":false,"enable-path-blocking":false,"enable-platform-blocking":false,"pb-support-languages":["id","en"],"pb-support-locales":["ID"],"pb-support-path-prefixes":["/m/test-pb","/m/sfdriver-kamissiaga-240823","/m/sfdriver-jumatdisiplin-250823","/m/tosgeneralsfdriver","/m/generaleduhub-dhlk101","/m/Big-Promo-telco","/m/spaywallet-succedmigrationinfo","/m/informasi-biaya-penarikan-dana-food","/m/spaymigration-unconnectedmultiaccount-eduphaseII-100823","/m/tutorialdeklarasimitra-100522","/m/spxstackinglaunch-jabodetabek-180823","/m/toshub","/m/shopee-xpress-instant-merchant-app-dummy","/m/sfdriver-spaylater-cashback20","/m/buka-rekening-seabank-merchant","/m/WD-Limit-SPay-SFood","/m/jumbo-cashback","/m/garansi-shopee-id","/m/sfdriver-jumatdisiplin-201023","/m/Huawei-Matepad-11-Papermatte-teaser-2023","/m/shopee-garansi-ori","/m/tentang-cod-cekdulu","/m/sfdriver-specialbonuspointjkt-251023"],"pb-support-platforms":["rw"]},"PLATFORM_STATIC_TOGGLE":{"Api_Fu_Hook":{"CMTCOL":100,"CMTMART":100,"CMTMICS":100,"DISCNTCOIN":100,"FlashSale":100,"IdentityRelationShip":100,"MPBuyerOrder":100,"MPI":100,"OPACRM":100,"PDP":100,"PromotionPS":100,"Rating":100,"Recommendation":100,"Search":100,"SeoRelatedlink":100,"Shop":100,"Traffic":100},"BRIDGE_V2":{"default":[{"p":100,"v":3}]},"EXPERIMENTS_PROXY":0,"R18":100,"SINGLETON_BRIDGE":{"default":0,"return":100,"verify":0},"USE_LATEST_SFU":100,"APMS":{"enabled":false}},"SAP":[{"p":0,"v":"2.25.294"},{"p":100,"v":"2.25.301"}],"SECURITY_REFRESH_INTERVAL":{"#":"3 hours","interval":180},"TRANSIFY_COLLECTION_MAPPING":{"en-live-106":1741334497,"en-live-110":1741178852,"en-live-115":1741178852,"en-live-119":1741178852,"en-live-12":1741178852,"en-live-120":1741178852,"en-live-121":1741178852,"en-live-122":1741178852,"en-live-124":1741178852,"en-live-125":1741178852,"en-live-127":1741178852,"en-live-134":1741178852,"en-live-135":1741178852,"en-live-137":1741178852,"en-live-139":1741178852,"en-live-144":1741178852,"en-live-146":1741178852,"en-live-148":1741178852,"en-live-149":1741178852,"en-live-150":1741178852,"en-live-153":1741178852,"en-live-154":1741178852,"en-live-156":1741178852,"en-live-157":1741178852,"en-live-159":1741178852,"en-live-168":1741178852,"en-live-175":1741178852,"en-live-176":1742184031,"en-live-177":1741178852,"en-live-178":1741685415,"en-live-179":1742443765,"en-live-188":1741178852,"en-live-205":1741178852,"en-live-207":1741178852,"en-live-208":1741178852,"en-live-212":1741178852,"en-live-213":1741178852,"en-live-22":1741178852,"en-live-225":1742441881,"en-live-226":1741178852,"en-live-227":1741178852,"en-live-23":1741178852,"en-live-232":1741178852,"en-live-24":1741178852,"en-live-247":1741178852,"en-live-25":1741178852,"en-live-251":1741178852,"en-live-252":1741178852,"en-live-26":1741178852,"en-live-262":1741178852,"en-live-264":1741178852,"en-live-266":1741178852,"en-live-267":1741178852,"en-live-274":1741178852,"en-live-28":1620289785,"en-live-281":1741178852,"en-live-284":1741178852,"en-live-286":1741178852,"en-live-288":1741178852,"en-live-289":1741178852,"en-live-293":1741178852,"en-live-309":1741178852,"en-live-313":1741178852,"en-live-315":1741178852,"en-live-327":1742457468,"en-live-331":1741178852,"en-live-34":1741178852,"en-live-347":1741178852,"en-live-35":1742379409,"en-live-353":1741178852,"en-live-356":1741178852,"en-live-359":1741178852,"en-live-36":1742440661,"en-live-37":1741178852,"en-live-371":1634122248,"en-live-38":1741178852,"en-live-381":1741178852,"en-live-382":1741178852,"en-live-39":1741178852,"en-live-390":1741178852,"en-live-391":1741178852,"en-live-4":1741178852,"en-live-41":1741178852,"en-live-410":1741178852,"en-live-421":1741178852,"en-live-435":1741178852,"en-live-439":1741178852,"en-live-44":1741178852,"en-live-444":1741178852,"en-live-45":1741178852,"en-live-451":1741178852,"en-live-454":1741178852,"en-live-455":1741178852,"en-live-456":1741178852,"en-live-46":1711520003,"en-live-460":1741178852,"en-live-465":1741178852,"en-live-479":1741178852,"en-live-485":1711520003,"en-live-486":1742457468,"en-live-492":1741178852,"en-live-5":1741178852,"en-live-508":1741178852,"en-live-510":1741178852,"en-live-516":1741178852,"en-live-52":1741178852,"en-live-529":1741178852,"en-live-53":1742443765,"en-live-533":1741178852,"en-live-539":1741178852,"en-live-54":1742354190,"en-live-543":1741334540,"en-live-544":1741178852,"en-live-546":1742457468,"en-live-55":1741178852,"en-live-57":1741178852,"en-live-572":1741178852,"en-live-575":1741178852,"en-live-576":1741178852,"en-live-58":1740478008,"en-live-59":1741178852,"en-live-594":1741178852,"en-live-6":1741178852,"en-live-60":1741178852,"en-live-600":1741178852,"en-live-61":1741178852,"en-live-619":1711520003,"en-live-629":1741178852,"en-live-63":1741178852,"en-live-64":1741178852,"en-live-65":1741178852,"en-live-650":1741178852,"en-live-664":1741178852,"en-live-680":1741178852,"en-live-689":1741178852,"en-live-7":1741680188,"en-live-70":1741178852,"en-live-704":1741178852,"en-live-71":1742196473,"en-live-719":1741231734,"en-live-722":1741849244,"en-live-723":1741946884,"en-live-726":1741335804,"en-live-73":1635491828,"en-live-74":1741178852,"en-live-76":1741921225,"en-live-8":1637915690,"en-live-84":1741178852,"en-live-89":1741178852,"en-live-94":1741178852,"en-live-95":1741178852,"en-live-96":1741178852,"en-live-97":1741178852,"en-live-99":1741178852,"vi-live-106":1741334497,"vi-live-110":1741178852,"vi-live-115":1741178852,"vi-live-119":1741178852,"vi-live-12":1741178852,"vi-live-120":1741178852,"vi-live-121":1741178852,"vi-live-122":1741178852,"vi-live-124":1741178852,"vi-live-125":1741178852,"vi-live-127":1741178852,"vi-live-134":1741178852,"vi-live-135":1741178852,"vi-live-137":1741178852,"vi-live-139":1741178852,"vi-live-144":1741178852,"vi-live-146":1741178852,"vi-live-148":1741178852,"vi-live-149":1741178852,"vi-live-150":1741178852,"vi-live-153":1741178852,"vi-live-154":1741178852,"vi-live-156":1741178852,"vi-live-157":1741178852,"vi-live-159":1741178852,"vi-live-168":1741178852,"vi-live-175":1741178852,"vi-live-176":1742184031,"vi-live-177":1741178852,"vi-live-178":1741685415,"vi-live-179":1742443765,"vi-live-188":1741178852,"vi-live-205":1741178852,"vi-live-207":1741178852,"vi-live-208":1741178852,"vi-live-212":1741178852,"vi-live-213":1741178852,"vi-live-22":1741178852,"vi-live-225":1742441881,"vi-live-226":1741178852,"vi-live-227":1741178852,"vi-live-23":1741178852,"vi-live-232":1741178852,"vi-live-24":1741178852,"vi-live-247":1741178852,"vi-live-25":1741178852,"vi-live-251":1741178852,"vi-live-252":1741178852,"vi-live-26":1741178852,"vi-live-262":1741178852,"vi-live-264":1741178852,"vi-live-266":1741178852,"vi-live-267":1741178852,"vi-live-274":1741178852,"vi-live-28":1620289785,"vi-live-281":1741178852,"vi-live-284":1741178852,"vi-live-286":1741178852,"vi-live-288":1741178852,"vi-live-289":1741178852,"vi-live-293":1741178852,"vi-live-309":1741178852,"vi-live-313":1741178852,"vi-live-315":1741178852,"vi-live-327":1742457468,"vi-live-331":1741178852,"vi-live-34":1741178852,"vi-live-347":1741178852,"vi-live-35":1742379409,"vi-live-353":1741178852,"vi-live-356":1741178852,"vi-live-359":1741178852,"vi-live-36":1742440661,"vi-live-37":1741178852,"vi-live-371":1634122248,"vi-live-38":1741178852,"vi-live-381":1741178852,"vi-live-382":1741178852,"vi-live-39":1741178852,"vi-live-390":1741178852,"vi-live-391":1741178852,"vi-live-4":1741178852,"vi-live-41":1741178852,"vi-live-410":1741178852,"vi-live-421":1741178852,"vi-live-435":1741178852,"vi-live-439":1741178852,"vi-live-44":1741178852,"vi-live-444":1741178852,"vi-live-45":1741178852,"vi-live-451":1741178852,"vi-live-454":1741178852,"vi-live-455":1741178852,"vi-live-456":1741178852,"vi-live-46":1711520003,"vi-live-460":1741178852,"vi-live-465":1741178852,"vi-live-479":1741178852,"vi-live-485":1711520003,"vi-live-486":1742457468,"vi-live-492":1741178852,"vi-live-5":1741178852,"vi-live-508":1741178852,"vi-live-510":1741178852,"vi-live-516":1741178852,"vi-live-52":1741178852,"vi-live-529":1741178852,"vi-live-53":1742443765,"vi-live-533":1741178852,"vi-live-539":1741178852,"vi-live-54":1742354190,"vi-live-543":1741334540,"vi-live-544":1741178852,"vi-live-546":1742457468,"vi-live-55":1741178852,"vi-live-57":1741178852,"vi-live-572":1741178852,"vi-live-575":1741178852,"vi-live-576":1741178852,"vi-live-58":1740478008,"vi-live-59":1741178852,"vi-live-594":1741178852,"vi-live-6":1741178852,"vi-live-60":1741178852,"vi-live-600":1741178852,"vi-live-61":1741178852,"vi-live-619":1711520003,"vi-live-629":1741178852,"vi-live-63":1741178852,"vi-live-64":1741178852,"vi-live-65":1741178852,"vi-live-650":1741178852,"vi-live-664":1741178852,"vi-live-680":1741178852,"vi-live-689":1741178852,"vi-live-7":1741680188,"vi-live-70":1741178852,"vi-live-704":1741178852,"vi-live-71":1741178852,"vi-live-719":1741231734,"vi-live-722":1741849244,"vi-live-723":1741946884,"vi-live-726":1741335804,"vi-live-73":1635491828,"vi-live-74":1741178852,"vi-live-76":1742380704,"vi-live-8":1637915690,"vi-live-84":1741178852,"vi-live-89":1741178852,"vi-live-94":1741178852,"vi-live-95":1741178852,"vi-live-96":1741178852,"vi-live-97":1741178852,"vi-live-99":1741178852},"USER_STATIC_TOGGLE":{"af_sap_sdk":true,"af_sap_legacy":false,"use_anti_crawler_api_protection_sdk":true,"context_action_account_v2":false,"standalone_security_sdk":true,"standalone_fetch_utils":true,"fetch_account_v2":false,"fetch_account_v4":true,"account_info_sync_fetch_server_pc":true,"account_info_sync_fetch_server_rw":true,"account_info_sync_fetch_server_lite":true,"account_info_sync_fetch_client_pc":true,"account_info_sync_fetch_client_rw":true,"account_info_sync_fetch_client_lite":true,"account_redux_invalid_server_state_report_pc":false,"account_redux_invalid_server_state_report_rw":false,"account_redux_invalid_server_state_report_lite":false,"signup_otp_zalo_web":true,"login_otp_zalo_web":true,"authentication_bind_otp_zalo_web":true,"otp_shared_service_otp_zalo_web":true,"phone_number_format_v2":true,"user_foreign_phone_number":false,"address_allow_th_landline_number":false,"collection_point_allow_foreign_and_th_landline_number":false,"identity_and_account_micro_app_pilot_test":false},"VOUCHER_CARD_MANIFEST":{"live":"vouchercard-v0.23.0"}};
+    <link rel="apple-touch-icon-precomposed" href="../../images/mobil/icon/porsche_57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../images/mobil/icon/porsche_72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../images/mobil/icon/porsche_114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../images/mobil/icon/porsche_144.png" />
+    <style type="text/css">
+    /** OUTPUT GENERATING IMPORTS **/
+
+    @font-face {
+        font-family: "PNewsGothic";
+        src: url('css/fonts/news-gothic/NewsGothforPorscheW02-Reg.eot');
+        src: url('css/fonts/news-gothic/NewsGothforPorscheW02-Reg.eot?#iefix') format('eot'), url('css/fonts/news-gothic/NewsGothforPorscheW02-Reg.woff') format('woff'), url('css/fonts/news-gothic/NewsGothforPorscheW02-Reg.ttf') format('truetype'), url('css/fonts/news-gothic/NewsGothforPorscheW02-Reg.svg') format('svg');
+    }
+
+    @font-face {
+        font-family: "PNewsGothicKY";
+        src: url('css/fonts/news-gothic/NewsGothforPorscheW10-Reg.eot');
+        src: url('css/fonts/news-gothic/NewsGothforPorscheW10-Reg.eot?#iefix') format('eot'), url('css/fonts/news-gothic/NewsGothforPorscheW10-Reg.woff') format('woff'), url('css/fonts/news-gothic/NewsGothforPorscheW10-Reg.ttf') format('truetype'), url('css/fonts/news-gothic/NewsGothforPorscheW10-Reg.svg') format('svg');
+    }
+
+    @font-face {
+        font-family: "PNewsGothicGR";
+        src: url('css/fonts/news-gothic/NewsGothforPorscheW15-Reg.eot');
+        src: url('css/fonts/news-gothic/NewsGothforPorscheW15-Reg.eot?#iefix') format('eot'), url('css/fonts/news-gothic/NewsGothforPorscheW15-Reg.woff') format('woff'), url('css/fonts/news-gothic/NewsGothforPorscheW15-Reg.ttf') format('truetype'), url('css/fonts/news-gothic/NewsGothforPorscheW15-Reg.svg') format('svg');
+    }
+
+    @font-face {
+        font-family: "PNewsGothicBold";
+        src: url('css/fonts/news-gothic/NewsGothforPorscheW02-Bd.eot');
+        src: url('css/fonts/news-gothic/NewsGothforPorscheW02-Bd.eot?#iefix') format('eot'), url('css/fonts/news-gothic/NewsGothforPorscheW02-Bd.woff') format('woff'), url('css/fonts/news-gothic/NewsGothforPorscheW02-Bd.ttf') format('truetype'), url('css/fonts/news-gothic/NewsGothforPorscheW02-Bd.svg') format('svg');
+    }
+
+    @font-face {
+        font-family: "PFranklinGothicCnd";
+        src: url('css/fonts/franklin-gothic/FrankGothforPorscheW02-Cn.eot');
+        src: url('css/fonts/franklin-gothic/FrankGothforPorscheW02-Cn.eot?#iefix') format('eot'), url('css/fonts/franklin-gothic/FrankGothforPorscheW02-Cn.woff') format('woff'), url('css/fonts/franklin-gothic/FrankGothforPorscheW02-Cn.ttf') format('truetype'), url('css/fonts/franklin-gothic/FrankGothforPorscheW02-Cn.svg') format('svg');
+    }
+
+    @font-face {
+        font-family: "PFranklinGothicCndKY";
+        src: url('css/fonts/franklin-gothic/FrankGothforPorscheW10-Cn.eot');
+        src: url('css/fonts/franklin-gothic/FrankGothforPorscheW10-Cn.eot?#iefix') format('eot'), url('css/fonts/franklin-gothic/FrankGothforPorscheW10-Cn.woff') format('woff'), url('css/fonts/franklin-gothic/FrankGothforPorscheW10-Cn.ttf') format('truetype'), url('css/fonts/franklin-gothic/FrankGothforPorscheW10-Cn.svg') format('svg');
+    }
+
+    @font-face {
+        font-family: "PFranklinGothicCndGR";
+        src: url('css/fonts/franklin-gothic/FrankGothforPorscheW15-Cn.eot');
+        src: url('css/fonts/franklin-gothic/FrankGothforPorscheW15-Cn.eot?#iefix') format('eot'), url('css/fonts/franklin-gothic/FrankGothforPorscheW15-Cn.woff') format('woff'), url('css/fonts/franklin-gothic/FrankGothforPorscheW15-Cn.ttf') format('truetype'), url('css/fonts/franklin-gothic/FrankGothforPorscheW15-Cn.svg') format('svg');
+    }
+
+    @font-face {
+        font-family: "pag-iconfont";
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/pag-iconfont/pag-iconfont.eot');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/pag-iconfont/pag-iconfont.eot?#iefix') format('eot'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/pag-iconfont/pag-iconfont.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/pag-iconfont/pag-iconfont.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/pag-iconfont/pag-iconfont.svg') format('svg');
+    }
+
+    /*font-new-Thin*/
+    @font-face {
+        font-family: 'PorscheNextWLa';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Thin/PorscheNextTTVie-Thin.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Thin/PorscheNextTTVie-Thin.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Thin/PorscheNextTTVie-Thin.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Thin/PorscheNextTTVie-Thin.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Thin/PorscheNextTTVie-Thin.svg#PorscheNextTTVie-Thin') format('svg');
+        font-weight: 100;
+        font-style: normal;
+    }
+    /*font-new-Thin-italic*/
+    @font-face {
+        font-family: 'PorscheNextWLa';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-ThinItalic/PorscheNextTTVie-ThinItalic.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-ThinItalic/PorscheNextTTVie-ThinItalic.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-ThinItalic/PorscheNextTTVie-ThinItalic.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-ThinItalic/PorscheNextTTVie-ThinItalic.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-ThinItalic/PorscheNextTTVie-ThinItalic.svg#PorscheNextTTVie-Thin') format('svg');
+        font-weight: 100;
+        font-style: italic;
+    }
+    
+    /*font-new-Regular*/
+    @font-face {
+        font-family: 'PorscheNextWLa';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.svg#PorscheNextTTVie-Regular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    /*font-new-Italic*/
+    @font-face {
+        font-family: 'PorscheNextWLa';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Italic/PorscheNextTTVie-Italic.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Italic/PorscheNextTTVie-Italic.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Italic/PorscheNextTTVie-Italic.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Italic/PorscheNextTTVie-Italic.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Italic/PorscheNextTTVie-Italic.svg#PorscheNextTTVie-Italic') format('svg');
+        font-weight: normal;
+        font-style: italic;
+    }
+    
+    /*font-new-bold*/
+    @font-face {
+        font-family: 'PorscheNextWLa';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.svg#PorscheNextTTVie-Bold') format('svg');
+        font-weight: bold;
+        font-style: normal;
+    }
+    /*font-new-bold-italic*/
+    @font-face {
+        font-family: 'PorscheNextWLa';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.svg#PorscheNextTTVie-BoldItalic') format('svg');
+        font-weight: bold;
+        font-style: italic;
+    }
+    @font-face {
+        font-family: "PorscheNextWCy";
+        font-weight: 100;
+        font-style: normal;
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Thin/PorscheNextTTVie-Thin.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Thin/PorscheNextTTVie-Thin.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Thin/PorscheNextTTVie-Thin.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Thin/PorscheNextTTVie-Thin.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Thin/PorscheNextTTVie-Thin.svg#PorscheNextTTVie-Thin') format('svg');
+    }
+
+    @font-face {
+        font-family: "PorscheNextWCy";
+        font-weight: 100;
+        font-style: italic;
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-ThinItalic/PorscheNextTTVie-ThinItalic.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-ThinItalic/PorscheNextTTVie-ThinItalic.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-ThinItalic/PorscheNextTTVie-ThinItalic.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-ThinItalic/PorscheNextTTVie-ThinItalic.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-ThinItalic/PorscheNextTTVie-ThinItalic.svg#PorscheNextTTVie-Thin') format('svg');
+    }
+
+    @font-face {
+        font-family: "PorscheNextWCy";
+        font-weight: normal;
+        font-style: normal;
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.svg#PorscheNextTTVie-Regular') format('svg');
+    }
+
+    @font-face {
+        font-family: "PorscheNextWCy";
+        font-weight: normal;
+        font-style: italic;
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Italic/PorscheNextTTVie-Italic.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Italic/PorscheNextTTVie-Italic.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Italic/PorscheNextTTVie-Italic.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Italic/PorscheNextTTVie-Italic.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Italic/PorscheNextTTVie-Italic.svg#PorscheNextTTVie-Italic') format('svg');
+    }
+
+    @font-face {
+        font-family: "PorscheNextWCy";
+        font-weight: bold;
+        font-style: normal;
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.svg#PorscheNextTTVie-Bold') format('svg');
+    }
+
+    @font-face {
+        font-family: "PorscheNextWCy";
+        font-weight: bold;
+        font-style: italic;
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.svg#PorscheNextTTVie-BoldItalic') format('svg');
+    }
+    /*font-new-Thin*/
+    @font-face {
+        font-family: 'PorscheNextWGr';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Thin/PorscheNextTTVie-Thin.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Thin/PorscheNextTTVie-Thin.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Thin/PorscheNextTTVie-Thin.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Thin/PorscheNextTTVie-Thin.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Thin/PorscheNextTTVie-Thin.svg#PorscheNextTTVie-Thin') format('svg');
+        font-weight: 100;
+        font-style: normal;
+    }
+    /*font-new-Thin-italic*/
+    @font-face {
+        font-family: 'PorscheNextWGr';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-ThinItalic/PorscheNextTTVie-ThinItalic.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-ThinItalic/PorscheNextTTVie-ThinItalic.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-ThinItalic/PorscheNextTTVie-ThinItalic.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-ThinItalic/PorscheNextTTVie-ThinItalic.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-ThinItalic/PorscheNextTTVie-ThinItalic.svg#PorscheNextTTVie-Thin') format('svg');
+        font-weight: 100;
+        font-style: italic;
+    }
+    
+    /*font-new-Regular*/
+    @font-face {
+        font-family: 'PorscheNextWGr';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.svg#PorscheNextTTVie-Regular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    /*font-new-Italic*/
+    @font-face {
+        font-family: 'PorscheNextWGr';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Italic/PorscheNextTTVie-Italic.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Italic/PorscheNextTTVie-Italic.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Italic/PorscheNextTTVie-Italic.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Italic/PorscheNextTTVie-Italic.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Italic/PorscheNextTTVie-Italic.svg#PorscheNextTTVie-Italic') format('svg');
+        font-weight: normal;
+        font-style: italic;
+    }
+    
+    /*font-new-bold*/
+    @font-face {
+        font-family: 'PorscheNextWGr';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.svg#PorscheNextTTVie-Bold') format('svg');
+        font-weight: bold;
+        font-style: normal;
+    }
+    /*font-new-bold-italic*/
+    @font-face {
+        font-family: 'PorscheNextWGr';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.svg#PorscheNextTTVie-BoldItalic') format('svg');
+        font-weight: bold;
+        font-style: italic;
+    }
+    /*font-new-Regular*/
+    @font-face {
+        font-family: 'PorscheNextWAr';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.svg#PorscheNextTTVie-Regular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    /*font-new-Regular*/
+    @font-face {
+        font-family: 'PorscheNextWPa';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.svg#PorscheNextTTVie-Regular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'PorscheNextWPe';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.svg#PorscheNextTTVie-Regular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'PorscheNextWUr';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.svg#PorscheNextTTVie-Regular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    /*font-new-bold*/
+    @font-face {
+        font-family: 'PorscheNextWAr';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.svg#PorscheNextTTVie-Bold') format('svg');
+        font-weight: bold;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'PorscheNextWPa';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.svg#PorscheNextTTVie-Bold') format('svg');
+        font-weight: bold;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'PorscheNextWPe';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.svg#PorscheNextTTVie-Bold') format('svg');
+        font-weight: bold;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'PorscheNextWUr';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Bold/PorscheNextTTVie-Bold.svg#PorscheNextTTVie-Bold') format('svg');
+        font-weight: bold;
+        font-style: normal;
+    }
+    /*font-new-Italic*/
+    @font-face {
+        font-family: 'PorscheNextWAr';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.svg#PorscheNextTTVie-Regular') format('svg');
+        font-weight: normal;
+        font-style: italic;
+    }
+    /*font-new-Italic*/
+    @font-face {
+        font-family: 'PorscheNextWPa';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.svg#PorscheNextTTVie-Regular') format('svg');
+        font-weight: normal;
+        font-style: italic;
+    }
+    /*font-new-Italic*/
+    @font-face {
+        font-family: 'PorscheNextWPe';
+       src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.svg#PorscheNextTTVie-Regular') format('svg');
+        font-weight: normal;
+        font-style: italic;
+    }
+    /*font-new-Italic*/
+    @font-face {
+        font-family: 'PorscheNextWUr';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.svg#PorscheNextTTVie-Regular') format('svg');
+        font-weight: normal;
+        font-style: italic;
+    }
+    /*font-new-bold-italic*/
+    @font-face {
+        font-family: 'PorscheNextWAr';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.svg#PorscheNextTTVie-BoldItalic') format('svg');
+        font-weight: bold;
+        font-style: italic;
+    }
+    /*font-new-bold-italic*/
+    @font-face {
+        font-family: 'PorscheNextWPa';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.svg#PorscheNextTTVie-BoldItalic') format('svg');
+        font-weight: bold;
+        font-style: italic;
+    }
+    /*font-new-bold-italic*/
+    @font-face {
+        font-family: 'PorscheNextWPe';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.svg#PorscheNextTTVie-BoldItalic') format('svg');
+        font-weight: bold;
+        font-style: italic;
+    }
+    /*font-new-bold-italic*/
+    @font-face {
+        font-family: 'PorscheNextWUr';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-BoldItalic/PorscheNextTTVie-BoldItalic.svg#PorscheNextTTVie-BoldItalic') format('svg');
+        font-weight: bold;
+        font-style: italic;
+    }
+     /*font-new-Thin-italic*/
+    @font-face {
+        font-family: 'PorscheNextWAr';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.svg#PorscheNextTTVie-Regular') format('svg');
+        font-weight: 100;
+        font-style: italic;
+    }
+     /*font-new-Thin-italic*/
+    @font-face {
+        font-family: 'PorscheNextWPa';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.svg#PorscheNextTTVie-Regular') format('svg');
+        font-weight: 100;
+        font-style: italic;
+    }
+     /*font-new-Thin-italic*/
+    @font-face {
+        font-family: 'PorscheNextWPe';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.svg#PorscheNextTTVie-Regular') format('svg');
+        font-weight: 100;
+        font-style: italic;
+    }
+     /*font-new-Thin-italic*/
+    @font-face {
+        font-family: 'PorscheNextWUr';
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.svg#PorscheNextTTVie-Regular') format('svg');
+        font-weight: 100;
+        font-style: italic;
+    }
+    @font-face {
+        font-family: "PorscheNextWAr";
+        font-weight: 100;
+        font-style: normal;
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.svg#PorscheNextTTVie-Regular') format('svg');
+    }
+
+    @font-face {
+        font-family: "PorscheNextWPa";
+        font-weight: 100;
+        font-style: normal;
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.svg#PorscheNextTTVie-Regular') format('svg');
+    }
+
+    @font-face {
+        font-family: "PorscheNextWPe";
+        font-weight: 100;
+        font-style: normal;
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.svg#PorscheNextTTVie-Regular') format('svg');
+    }
+
+    @font-face {
+        font-family: "PorscheNextWUr";
+        font-weight: 100;
+        font-style: normal;
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.otf');
+        src: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.eot?#iefix') format('embedded-opentype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.woff') format('woff'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.ttf') format('truetype'), url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/font_news/PorscheNextTTVie-Regular/PorscheNextTTVie-Regular.svg#PorscheNextTTVie-Regular') format('svg');
+    }
+
+    @font-face {
+        font-family: "pag-iconfont";
+        src: url("https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/pag-iconfont/pag-iconfont.eot");
+        src: url("https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/pag-iconfont/pag-iconfont.eot?#iefix") format("embedded-opentype"), url("https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/pag-iconfont/pag-iconfont.woff") format("woff"), url("https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/pag-iconfont/pag-iconfont.ttf") format("truetype"), url("https://porsche-vietnam.vn/wp-content/themes/porsche-2018/fonts/pag-iconfont/pag-iconfont.svg#pag-iconfont") format("svg");
+    }
+    </style>
+    
+    <script type="text/javascript">
+    var CURRENTPOOL = 'pap';
+    var CURRENTLANGUAGE = 'none';
+    var CURRENTCONDITION = 'vietnam';
+    var LOAD_PSYMA = '';
+    var ipadViewport = '<meta name="viewport" content="width=1024" />';
+
+    var GLOBAL_CONFIG = GLOBAL_CONFIG || {};
+
+   /* GLOBAL_CONFIG.currentMainNavigationArea = 'm-01-rd2013-homepage';*/
+   /* GLOBAL_CONFIG.pool = 'pap';
+    GLOBAL_CONFIG.language = 'none';
+    GLOBAL_CONFIG.preferredLanguage = 'vi';
+    GLOBAL_CONFIG.region = 'vietnam';
+    GLOBAL_CONFIG.loadPsyma = '';
+    GLOBAL_CONFIG.home = true;
+    GLOBAL_CONFIG.dealersearch = {
+        porschedealerLocatorURL: ""
+    };
+    GLOBAL_CONFIG.tracking = {
+        id: ''
+    };*/
+
+    
+    </script>
+    
+    <meta charset="UTF-8" />
+
+    <meta name="author" content="Time Universal" />
+    <meta name="description" content="Porsche Vietnam" />
+    <meta property="fb:app_id" content="641841079299350" />   
+    <meta property="og:type" content='article' />
+    <meta property="og:title" content="Porsche Vietnam" />
+    <meta property="og:url" content="https://porsche-vietnam.vn/" />
+    <meta property="og:image" content="https://porsche-vietnam.vn/wp-content/themes/porsche-2018/screenshot.png" />
+    <meta property="og:description" content="Porsche Vietnam" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="verify-v1" content="Rmx1mu99AVMNRe3jgIJ3nDbzaQ6MZeOVM4J4246SZUs=" />
+    <style>
+    .m-00-crest-svg {
+        background-image: url('https://porsche-vietnam.vn/wp-content/themes/porsche-2018/images/porsche-svg.svg') !important;
+    }
+    </style>
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NZKQ2XW');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87491419-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-87491419-1');
+    </script>
+
+    
+    <title>Porsche Vietnam &#8211; Porsche Vietnam</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/porsche-vietnam.vn\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0.9"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
 </script>
-<script>!function(){if(self.document){var e=self.document.createElement("script"),t="noModule"in e,n=t;Object.defineProperty(self,"SUPPORT_MODULE",{get:function(){return n},configurable:!1,enumerable:!1}),!t&&"onbeforeload"in e&&(self.document.addEventListener("beforeload",(function(t){if(t.target===e)n=!0;else if(!t.target.hasAttribute("nomodule")||!n)return;t.preventDefault()}),!0),e.type="module",e.src=".",self.document.head.appendChild(e),e.remove())}}();</script>
-<script nomodule>document.documentMode<=11&&location.replace("/unsupported.html")</script>
-<script>!function(){var A=["lossy","lossless","alpha","animation"];function t(A,t){var n=new Image;n.onload=function(){var o=n.width>0&&n.height>0;t(A,o)},n.onerror=function(){t(A,!1)},n.src="data:image/webp;base64,"+{lossy:"UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA",lossless:"UklGRhoAAABXRUJQVlA4TA0AAAAvAAAAEAcQERGIiP4HAA==",alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==",animation:"UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA"}[A]}function n(t,n){var o=function(t){var n={};if(!t||1!==t.length)return n;for(var o=parseInt(t,16).toString(2);o.length<4;)o="0"+o;for(var s=0;s<A.length;s++)n[A[s]]="1"===o[s];return n}(sessionStorage.getItem("shopee_webp_support"));o[t]=n,sessionStorage.setItem("shopee_webp_support",function(t){var n="0000";if(!(t instanceof Object))return n;for(var o=0;o<A.length;o++)!0===t[A[o]]&&(n=n.substring(0,o)+"1"+n.substring(o+1));return parseInt(n,2).toString(16)}(o))}function o(A,t){try{n(A,t)}catch(A){}}sessionStorage.getItem("shopee_webp_support")||(t("lossy",o),t("lossless",o),t("alpha",o),t("animation",o))}();</script>
-<script nomodule src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/polyfill-legacy.3779abc47719e498.legacy.js"></script>
-<script>!function(){var t=/^\/(?:supermarket|cart|checkout|search)(?:\/|$)/,e=document&&document.querySelector('script[type^="text/shopee-short-url-checked"]'),o=!(!e||"1"!==e.textContent),a=location&&location.origin||"";function n(){document&&document.body&&(document.body.style.visibility="visible")}var r="";function i(e){var o=function(t){var e=document.createElement("a");return e.href=t,{pathname:e.pathname,hash:e.hash,search:e.search,protocol:e.protocol}}(e),i=o.pathname,s=o.hash,c=i.replace(/\/+$/,"");if(r!==c&&(r=c,"/"!==i&&!function(e){return t.test(e)}(i)&&function(t){return 1===t.split("/").filter(Boolean).length}(i)&&i.length<256&&""===s&&0===i.lastIndexOf("/"))){document&&document.body&&(document.body.style.visibility="hidden"),setTimeout(n,5e3);var h=new XMLHttpRequest;h.open("GET",a+"/api/v4/pages/is_short_url/?path="+i.replace("/","")),h.setRequestHeader("Content-Type","application/json"),h.setRequestHeader("Accept","application/json"),h.onreadystatechange=function(){if(4===this.readyState)if(200===this.status){var t=JSON.parse(this.responseText);t&&t.data&&t.data.url?(console.log("Redirecting via short url to: res.data.url"),location.href=t.data.url):n()}else n()},h.send()}}var s=window.history.pushState;window.history.pushState=function(){var t=arguments[2];t&&i(t),s.apply(history,arguments)};var c=window.history.replaceState;window.history.replaceState=function(){var t=arguments[2];t&&i(t),c.apply(history,arguments)},o||i(location.href)}();</script>
-<script>"loading"in HTMLImageElement.prototype?document.addEventListener("DOMContentLoaded",(function(){document.querySelectorAll("img[loading].lazyload").forEach((function(e){e.dataset.src&&(e.src=e.dataset.src),e.dataset.srcset&&(e.srcset=e.dataset.srcset);var t=e.parentElement;if(t&&"PICTURE"===t.nodeName)for(var s=t.getElementsByTagName("source"),a=0;a<s.length;a++)s[a].dataset.src&&(s[a].src=s[a].dataset.src),s[a].dataset.srcset&&(s[a].srcset=s[a].dataset.srcset)}))})):document.write('<script type="text/javascript" src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/polyfill.d86e5ceef3caefa1.js"><\/script>')</script><script>window.MutationObserver||document.write('<script type="text/javascript" src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/polyfill.6d66a9f4abfc0453.js"><\/script>')</script><script>"IntersectionObserver"in window&&"IntersectionObserverEntry"in window&&"intersectionRatio"in window.IntersectionObserverEntry.prototype&&"isIntersecting"in window.IntersectionObserverEntry.prototype||document.write('<script type="text/javascript" src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/polyfill.7b130ff53107c239.js"><\/script>')</script><script>!function(){var e=document.createElement("div").style;e.setProperty&&e.setProperty("--x","x"),e.getPropertyValue&&"x"===e.getPropertyValue("--x")||(document.write('<script type="text/javascript" src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/polyfill.e91a033830f038f9.js"><\/script>'),document.write("<script>window.cssVars({preserveVars:!0,watch:!0});<\/script>"))}()</script>
-<link type="application/opensearchdescription+xml" rel="search" href="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/383186926881abb5.xml">
-<link rel="dns-prefetch" href="//down-vn.img.susercontent.com/">
-<link rel="dns-prefetch" href="//deo.shopeemobile.com/shopee/">
-<link rel="dns-prefetch" href="//cv.shopee.vn/">
-<script src="https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/index.js"></script>
-<script id="gtm-script" data-locale="vn" data-gtm-id="GTM-WJZQSJF">!function(t,e,a,n){t[n]=[];var o=["PL","ES","BR"].indexOf(__LOCALE__)>=0,r=o?"denied":"granted";!function(){dataLayer.push(arguments)}("consent","default",{consent_analytical:r,consent_functional:r,consent_advertising:r,consent_thirdparty_google:r,consent_thirdparty_tiktok:r,wait_for_update:o?15e3:0});var d=document.currentScript||document.getElementById("gtm-script");if(d){var i=d.getAttribute("data-locale"),c=d.getAttribute("data-gtm-id"),s=d.getAttribute("data-delay-load"),u="",g=0;s&&(u="delay",g=5e3),t[n]=t[n]||[];var m=Date.now(),_={"gtm.start":m,event:"gtm.js",country:i};u&&(_.userGroup=u),t[n].push(_);var l=!1;t.__shopeeLoadGTM=function(){l||(l=!0,g=Math.max(0,Math.min(g,g-(Date.now()-m))),setTimeout((function(){var t=e.getElementsByTagName(a)[0],n=e.createElement(a);n.async=!0,n.src="https://www.googletagmanager.com/gtm.js?id="+c,t.parentNode.insertBefore(n,t)}),g))},o||t.__shopeeLoadGTM()}}(window,document,"script","dataLayer");</script>
-<script>"use strict";!function(){var e=Object.defineProperty,n={};!function(n,t){for(var r in t)e(n,r,{get:t[r],enumerable:!0})}(n,{observe:function(){return v},unobserve:function(){return C}});var t=!!(typeof window<"u"&&window.document&&window.document.createElement);function r(e,n){return void 0===n&&(n=0),e+"_"+n.toString()}var a,o="0px 0px "+(t&&self&&self.innerWidth<=640?80:300)+"px 0px",i=r(o,0);function l(e){var n,t=null===(n=self.__INTERSECTION_OBSERVER)||void 0===n?void 0:n.CALLBACK_MULTIMAP.get(e);return function(e){e.forEach((function(e){var n=e.target;if(t&&t.has(n)){var r=t.get(n)||{},a=r.enterViewCallback,o=r.leaveViewCallback,i=r.intersectionChangeCallback;e.isIntersecting?a&&a(e):o&&o(e),i&&i(e)}}))}}function s(e,n){if(!self.__INTERSECTION_OBSERVER)return{observer:void 0,callbackMap:void 0};var t=null!=e?e:o,i=null!=n?n:0,s=r(t,i),E=s?self.__INTERSECTION_OBSERVER.OBSERVER_MAP.get(s):a;return E||(self.__INTERSECTION_OBSERVER.CALLBACK_MULTIMAP.set(s,new WeakMap),E=new self.IntersectionObserver(l(s),{rootMargin:t,threshold:i}),self.__INTERSECTION_OBSERVER.OBSERVER_MAP.set(s,E)),{observer:E,callbackMap:self.__INTERSECTION_OBSERVER.CALLBACK_MULTIMAP.get(s)}}function E(e,n){if(t&&self.__INTERSECTION_OBSERVER){var r=n||{},a=s(r.rootMargin,r.threshold),o=a.observer,i=a.callbackMap;e&&o&&i&&i.has(e)&&(i.delete(e),o.unobserve(e))}}typeof window<"u"&&!a&&t&&(self.__INTERSECTION_OBSERVER||(self.__INTERSECTION_OBSERVER={OBSERVER_MAP:new Map,CALLBACK_MULTIMAP:new Map}),self.__INTERSECTION_OBSERVER.CALLBACK_MULTIMAP.set(i,new WeakMap),a=new self.IntersectionObserver(l(i),{rootMargin:o,threshold:0}),self.__INTERSECTION_OBSERVER.OBSERVER_MAP.set(i,a));var c=.5,_=new WeakMap,f=new WeakMap,R="0px 0px 0px 0px";function u(e){var n=e.target;if(e.intersectionRatio<c){if(f.has(n)){var t=f.get(n);t&&clearTimeout(t),f.delete(n)}}else if(_.has(n)){f.set(n,setTimeout((function(){f.delete(n);var e=_.get(n);"function"==typeof e&&(E(n,{threshold:c,rootMargin:R}),e())}),1e3))}}var v=function(e,n,r){!e||(null==r?void 0:r.override)&&_.has(e)||(_.set(e,n),function(e,n){if(t&&self.__INTERSECTION_OBSERVER){var r=n||{},a=r.rootMargin,o=r.threshold,i=r.enterViewCallback,l=r.leaveViewCallback,E=r.intersectionChangeCallback,c=s(a,o),_=c.observer,f=c.callbackMap;_&&e&&f&&(f.set(e,{enterViewCallback:i,leaveViewCallback:l,intersectionChangeCallback:E}),_.observe(e))}}(e,{threshold:c,rootMargin:R,intersectionChangeCallback:u}))},C=function(e){if(e){E(e,{threshold:c,rootMargin:R}),_.delete(e);var n=f.get(e);n&&clearTimeout(n)}},I={push:function(e){var t=e[0],r=e.slice(1);"cleanup"!==t&&n[t].apply(n,r)}},T=window.__sbi;window.__sbi=I,Array.isArray(T)&&T.forEach((function(e){return I.push(e)}))}();</script>
-<link rel="stylesheet" data-modern="true" href="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/bundle.d71e9381febb7426.css">
-<script type="text/shopee-page-manifest">{"pcmall-paymentfe":"https://deo.shopeemobile.com/shopee/stm-sg-live/2255/asset-VN-live.a79c4e126ca485059e483f851c5f6961.json","pcmall-cart":"https://deo.shopeemobile.com/shopee/stm-sg-live/2355/asset-VN-live.5d7dda77d26bbfa7e62e2646553adcfa.json","pcmall-coinsrewardpage":"https://deo.shopeemobile.com/shopee/stm-sg-live/4693/asset-VN-live.56b5b134ae360d96eccfed9d4b47a489.json","pcmall-shopmicrofe":"https://deo.shopeemobile.com/shopee/stm-sg-live/4786/asset-VN-live.00fc78123170b17a5d5a1d8c15b9f0c4.json","pcmall-bundledeal":"https://deo.shopeemobile.com/shopee/stm-sg-live/6950/asset-VN-live.9dc6b6d533ee0a2d6e0c85e1d20f9278.json","pcmall-flashsale":"https://deo.shopeemobile.com/shopee/stm-sg-live/7299/asset-VN-live.0710eaa6667f53a9eb690353d93ce26c.json","pcmall-flashsale-entry":"https://deo.shopeemobile.com/shopee/stm-sg-live/7432/asset-VN-live.b5114c9bb43f68cd6db8e5e69380c466.json","pcmall-flashsale-mart-entry":"https://deo.shopeemobile.com/shopee/stm-sg-live/7563/asset-VN-live.086b6535550f276aa4cca146a7bf9196.json","pcmall-flashsale-mart-landing":"https://deo.shopeemobile.com/shopee/stm-sg-live/7623/asset-VN-live.d9e9debc43345fbcf59d4ac7a139932d.json","pcmall-addondeal-aod":"https://deo.shopeemobile.com/shopee/stm-sg-live/13675/asset-VN-live.f901a56151e8308b131358cbcabf4c56.json","pcmall-sclp":"https://deo.shopeemobile.com/shopee/stm-sg-live/15196/asset-VN-live.d703ec332c9c6678f9ad5d113610695d.json","pcmall-dailycheckin":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dailycheckin/main.b508a33ddb326ef57079.css","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dailycheckin/main.c3c1b38b03a3a6c6b3d0.js"],"pcmall-addondeal-pwp":"https://deo.shopeemobile.com/shopee/stm-sg-live/16701/asset-VN-live.f7516ae24f5ee8b00386cc2291b52413.json","pcmall-addondeal-pwg":"https://deo.shopeemobile.com/shopee/stm-sg-live/16833/asset-VN-live.142fdb0cca61c1bd16926cee4506b8f0.json","pcmall-pcpagevoucherdetail":"https://deo.shopeemobile.com/shopee/stm-sg-live/21062/asset-VN-live.a7731fcb4e12bac7a77871edc5cf93c2.json","pcmall-voucherwallet":"https://deo.shopeemobile.com/shopee/stm-sg-live/21747/asset-VN-live.513352ecbef8f23029f99624adfc0a21.json","pcmall-recommendshopvoucherlistpc":"https://deo.shopeemobile.com/shopee/stm-sg-live/21874/asset-VN-live.d87cfe45bd6ec91c4111415a4166e063.json","pcmall-recommendcartvoucherspc":"https://deo.shopeemobile.com/shopee/stm-sg-live/21924/asset-VN-live.2814322c598081ea62a0a9eff109b1e1.json","pcmall-voucherwalletmodalpc":"https://deo.shopeemobile.com/shopee/stm-sg-live/22107/asset-VN-live.b3272c797ccc4e4fe16a959f30952d1a.json","pcmall-voucherproductfocusedui":"https://deo.shopeemobile.com/shopee/stm-sg-live/22192/asset-VN-live.83650e316f34abfb6b638a08be788c83.json","pcmall-sellervoucherlist":"https://deo.shopeemobile.com/shopee/stm-sg-live/22501/asset-VN-live.0048932f1baf445cfe968f1f1e6acd68.json","pcmall-sellervoucher":"https://deo.shopeemobile.com/shopee/stm-sg-live/22629/asset-VN-live.acbb3ee8e6e39d51156985b205ac7c17.json","pcmall-productshopvouchers":"https://deo.shopeemobile.com/shopee/stm-sg-live/22678/asset-VN-live.36dd214278b290a77f03dd4cade9f603.json","pcmall-productshopvoucher":"https://deo.shopeemobile.com/shopee/stm-sg-live/22772/asset-VN-live.5133d7e8c4a529908e4f861c7874867c.json","pcmall-rcmd-cart-ymal":"https://deo.shopeemobile.com/shopee/stm-sg-live/22952/asset-VN-live.19060b674960a2ac11b167202041127f.json","pcmall-shoprating":"https://deo.shopeemobile.com/shopee/stm-sg-live/23307/asset-VN-live.5e44c1abba0b8c96fe28b9d789b79bf5.json","pcmall-voucherwalletvoucherpreview":"https://deo.shopeemobile.com/shopee/stm-sg-live/23579/asset-VN-live.267a301ed585d44e7d4f08694b5ad5d1.json","pcmall-microsite":"https://deo.shopeemobile.com/shopee/stm-sg-live/24491/asset-VN-live.ca38b3832d1ab20a373fd399a5d60a84.json","pcmall-rcmd-cart-ymal-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/24788/asset-VN-live.d21edd5c250ccc41f6763dbbf9836b1f.json","pcmall-useraccount":"https://deo.shopeemobile.com/shopee/stm-sg-live/27945/asset-VN-live.1ab5b04a6b74b0ed040b76545d728d33.json","pcmall-checkout":{"version":1,"assets":{"BUYER_CONFIGS":{"live":{"transifykey_idscs_web":{}}},"CHECKOUT_CONFIGS":{"live":{"display_fast_edt_opc_web":{"default":"hide_fast_edt","id|tw|th|vn|ph|my|sg":"display_fast_edt"},"invalid_address_softblock_popup_limit":{"default":{"cooldown_days":30,"popup_limit":5},"vn":{"cooldown_days":30,"popup_limit":3}},"opc_revamp_web":{"tw|th|vn|ph|sg|br|mx|co|cl":{"mode":"revamp","revamp_newPaymentEntrance":true}},"scp_definition_phase_2_rw":{"default":"control","id|vn|ph|my|sg|br|th":"treatment"}}}},"metaAppDetails":{"sentryDsn":"https://37df41a9eafc429585b01c3771b4af54@o468184.ingest.sentry.io/5882147"},"legacy":{"js":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/checkout/pcmall-checkout.f851b2f460d5ba4d878a.legacy.js","https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__pc-page-configuration-context/0.2.28.legacy.js","https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__domain/3.1.5.legacy.js","https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__language/2.2.0.legacy.js","https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__settings/2.2.0.legacy.js","https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__language/1.1.19.legacy.js","https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee_common__currency/4.0.2.legacy.js","https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee_common__time/2.3.2.legacy.js"],"css":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/checkout/pcmall-checkout.ffcffedcda1da819a228.legacy.css"]},"modern":{"js":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/checkout/pcmall-checkout.32704cbf296b84dfb5ac.js","https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__pc-page-configuration-context/0.2.28.js","https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__domain/3.1.5.js","https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__language/2.2.0.js","https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__settings/2.2.0.js","https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__language/1.1.19.js","https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee_common__currency/4.0.2.js","https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee_common__time/2.3.2.js"],"css":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/checkout/pcmall-checkout.4eae2eea59f4888e9e8b.css"]}},"pcmall-casedispute":"https://deo.shopeemobile.com/shopee/stm-sg-live/30257/asset-VN-live.dfbbcd516e8ca92fda82a15c3a97789e.json","pcmall-return":"https://deo.shopeemobile.com/shopee/stm-sg-live/30567/asset-VN-live.33eeca10eb4334af715a1014cccffd21.json","pcmall-formmanagement":"https://deo.shopeemobile.com/shopee/stm-sg-live/30651/asset-VN-live.9d156e6622626b9c472beabe84fd86bb.json","pcmall-coins":"https://deo.shopeemobile.com/shopee/stm-sg-live/32474/asset-VN-live.b8e57823fc7251b7de6a8e76baed9eae.json","pcmall-productdetailspage":"https://deo.shopeemobile.com/shopee/stm-sg-live/32907/asset-VN-live.bad9d6af9f998a7e53549d464d25102e.json","pcmall-rcmd-flash-sale-sold-out-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/33300/asset-VN-live.b4bb99f5d99079dbeec2d5f7cc70bd80.json","pcmall-rcmd-pdp-ftss":"https://deo.shopeemobile.com/shopee/stm-sg-live/33391/asset-VN-live.811f5d1c2202e0001cccb26eaa585a53.json","pcmall-rcmd-pdp-ymal":"https://deo.shopeemobile.com/shopee/stm-sg-live/33490/asset-VN-live.208798985f19b6903400e084b2fa3115.json","pcmall-shopcustompage":"https://deo.shopeemobile.com/shopee/stm-sg-live/34080/asset-VN-live.2be9dd37ded8681458725d3daba042ed.json","pcmall-returnevidence":"https://deo.shopeemobile.com/shopee/stm-sg-live/34260/asset-VN-live.90f2d9408bf9d0f1108cf6074a7574d0.json","pcmall-mart-categorylandingpage":"https://deo.shopeemobile.com/shopee/stm-sg-live/37136/asset-VN-live.716d472f9ac3b9f667dc12acf460d7ac.json","pcmall-mart-dealspage":"https://deo.shopeemobile.com/shopee/stm-sg-live/37333/asset-VN-live.985d3a7109bdb526f05387854b741a3f.json","pcmall-mart-homepage":"https://deo.shopeemobile.com/shopee/stm-sg-live/37427/asset-VN-live.06b619b4bfff6cfa0915d04abb7fa33e.json","pcmall-rcmd-mart-recommendation-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/38513/asset-VN-live.c84dba93c0e68056c24f756cf97e145a.json","pcmall-rcmd-mart-recommendation-module":"https://deo.shopeemobile.com/shopee/stm-sg-live/38593/asset-VN-live.5b3f8430eb8a7dc07939d5bf4ab20e17.json","pcmall-rcmd-mart-buy-again-module":"https://deo.shopeemobile.com/shopee/stm-sg-live/39065/asset-VN-live.96e1c59e45205ee5417ec42d345f89b1.json","pcmall-rcmd-mart-buy-again-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/39261/asset-VN-live.956bfb07eaf5fd70540ddd232ebf1f8e.json","pcmall-crmpage":"https://deo.shopeemobile.com/shopee/stm-sg-live/39839/asset-VN-live.1d2b926db24a2828f0a146063700dba1.json","pcmall-rcmd-home-top-products-module":"https://deo.shopeemobile.com/shopee/stm-sg-live/40397/asset-VN-live.d79571303951e90816523be164c4a273.json","pcmall-rcmd-home-top-products-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/40556/asset-VN-live.0a47c9e6f8518520ad19d1d983bce54b.json","pcmall-rcmd-pdp-ftss-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/40709/asset-VN-live.efe76540c5dc7c81d1353178bdcde1e3.json","pcmall-rcmd-pdp-ymal-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/41063/asset-VN-live.e5739a9c9d78655a6089fd3db7fc7f47.json","pcmall-productrating":"https://deo.shopeemobile.com/shopee/stm-sg-live/41976/asset-VN-live.a9574b2dfbce190c9d4fe9cc5b2f56c6.json","pcmall-myratingpc":"https://deo.shopeemobile.com/shopee/stm-sg-live/42459/asset-VN-live.0318761125fd4f727d2e43af8a965fab.json","pcmall-mart-voucherlandingpage":"https://deo.shopeemobile.com/shopee/stm-sg-live/42653/asset-VN-live.f9506b6881a84f61e18c219889382c73.json","pcmall-rcmd-fsp-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/42948/asset-VN-live.1b4e95762493f4abed1c56ba490bf31e.json","pcmall-buyerrating":"https://deo.shopeemobile.com/shopee/stm-sg-live/51391/asset-VN-live.e5f2bf322ef2e365b15561349fc3f33c.json","pcmall-ratingorder":"https://deo.shopeemobile.com/shopee/stm-sg-live/51489/asset-VN-live.c1c658ef1ae1500206cffc2c94900928.json","pcmall-captcha":"https://deo.shopeemobile.com/shopee/stm-sg-live/51962/asset-VN-live.8f9bb17890d64ef3f0233bc2217ade1d.json","pcmall-dd-landing-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/52663/asset-VN-live.1eb6057fbed21c00d8a4d22522fa0636.json","pcmall-dd-home-module":"https://deo.shopeemobile.com/shopee/stm-sg-live/52895/asset-VN-live.971b6ce11f6e9429bf695858234ba4ab.json","pcmall-rcmd-mall-just-for-you-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/53060/asset-VN-live.14de104e745b9e910a66ef6f00bc2bb9.json","pcmall-rcmd-mall-just-for-you-module":"https://deo.shopeemobile.com/shopee/stm-sg-live/53113/asset-VN-live.2e9eed2e64d43336e384ee6238d8a4ed.json","pcmall-rcmd-mall-popular-products-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/53207/asset-VN-live.70a0b9b66f8b86cb614936bc2ccca5c2.json","pcmall-antifraudverifylink":"https://deo.shopeemobile.com/shopee/stm-sg-live/54841/asset-VN-live.b4e58991794ed758fc962fde0a794dd8.json","pcmall-antifraudverifyqr":"https://deo.shopeemobile.com/shopee/stm-sg-live/54929/asset-VN-live.baaf7cf5744d334351bb75285285a07d.json","pcmall-antifraudverifyemaillink":"https://deo.shopeemobile.com/shopee/stm-sg-live/55079/asset-VN-live.c6896efdb032fcb3f975b9901e41a466.json","pcmall-antifraudivs":"https://deo.shopeemobile.com/shopee/stm-sg-live/55221/asset-VN-live.67b19c668d3e23064a103b4f685ca3f6.json","pcmall-antifraudverifylinkreceiver":"https://deo.shopeemobile.com/shopee/stm-sg-live/55419/asset-VN-live.1f38b07f96abd8f11ac8a6ecefc13e7b.json","pcmall-antifraudverifyemaillinkreceiver":"https://deo.shopeemobile.com/shopee/stm-sg-live/55999/asset-VN-live.70ea5677bfcd7c9bb2d022ed5a239a3b.json","pcmall-returnrequest":"https://deo.shopeemobile.com/shopee/stm-sg-live/59662/asset-VN-live.b174380cb543ffff6fe5a416ca5ecfb0.json","pcmall-micrositefe":"https://deo.shopeemobile.com/shopee/stm-sg-live/60586/asset-VN-live.0f5be9ae8c92e73e63de130f0adba865.json","pcmall-flashsalesoldout":"https://deo.shopeemobile.com/shopee/stm-sg-live/31123/asset-VN-live.a6e619e68910e0e66f63793f3d8d7973.json","pcmall-voucherlandingpagevoucher":"https://deo.shopeemobile.com/shopee/stm-sg-live/43423/asset-VN-live.996f146e434b15297691b1eb7d011b7a.json","pcmall-cartsellervoucherspopup":"https://deo.shopeemobile.com/shopee/stm-sg-live/43356/asset-VN-live.d3ca9ac70033cc4fd4e86325c23aa1a6.json","pcmall-cancellation":"https://deo.shopeemobile.com/shopee/stm-sg-live/45049/asset-VN-live.fcbf8abb6074a7e760e79acb8859f262.json","VOUCHER_CARD_MANIFEST":{"live":"vouchercard-v0.23.0"},"user-microfe-account-desktop-demo":"https://deo.shopeemobile.com/shopee/stm-sg-live/48027/asset-VN-live.f88765196e242040e4ecb2d663d77d21.json","pcmall-vouchermarthomepage":"https://deo.shopeemobile.com/shopee/stm-sg-live/47930/asset-VN-live.113afdce6c0dd1edadbd92dfc3f17f95.json","pcmall-antifrauderror":"https://deo.shopeemobile.com/shopee/stm-sg-live/47234/asset-VN-live.2e7b01f75496ff114cfa725ee3d659d5.json","pcmall-vouchermartlandingpage":"https://deo.shopeemobile.com/shopee/stm-sg-live/49178/asset-VN-live.e8fde0665b45aad4d0e9d39a9a686e1a.json","user-microfe-identity-desktop-demo-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/49855/asset-VN-live.f18062cccf5542a0674c51356a5a0f51.json","user-microfe-identity-desktop-demo-page-2":"https://deo.shopeemobile.com/shopee/stm-sg-live/49954/asset-VN-live.317470bd4b02fdeee8d2ba5ae32787d1.json","user-microfe-account-desktop-demo-2":"https://deo.shopeemobile.com/shopee/stm-sg-live/50141/asset-VN-live.1a29c4f40983fbe969d5797b50797ad0.json","pcmall-rcmd-cart-fsp-module":"https://deo.shopeemobile.com/shopee/stm-sg-live/50714/asset-VN-live.df48a92cb502503073001eca8c497410.json","pcmall-anticrawler":"https://deo.shopeemobile.com/shopee/stm-sg-live/50815/asset-VN-live.dec29b8be08407791542a29648295cff.json","user-microfe-identity-desktop-noti-email-subscription-center":"https://deo.shopeemobile.com/shopee/stm-sg-live/51010/asset-VN-live.50df97805f5695549d88f3bd0ff9855a.json","user-microfe-account-desktop-verify-account-seller-main-sub":{"version":1,"assets":{},"metaAppDetails":{},"legacy":{"js":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/account/runtime.c5eabcfcf5414c0ba2aa.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/account/vendor.2692c8dede72b06fc4ab.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/account/user-microfe-account-desktop-verify-account-seller-main-sub.d4f6197cae27225ff9a8.legacy.js"],"css":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/account/user-microfe-account-desktop-verify-account-seller-main-sub.d2d849092118de40a213.legacy.css"]},"modern":{"js":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/account/runtime.37cf8a57a03c947415d3.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/account/vendor.028a17dd7f363bab7ae1.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/account/user-microfe-account-desktop-verify-account-seller-main-sub.34b57efac7b2aeef669d.js"],"css":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/account/user-microfe-account-desktop-verify-account-seller-main-sub.db6c4397372e579bf42e.css"]}},"pcmall-pagebuilder":"https://deo.shopeemobile.com/shopee/stm-sg-live/62596/asset-VN-live.4ab0ca7318248c0995955522cf3cb6d8.json","pcmall-autoparts":"https://deo.shopeemobile.com/shopee/stm-sg-live/62930/asset-VN-live.77409a08241a49f132ea3f8beeba23d6.json","pcmall-autoparts-demo-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/63028/asset-VN-live.70e995df0b03029dca5c98563b6a5cef.json","pcmall-externalcheckout":"https://deo.shopeemobile.com/shopee/stm-sg-live/63268/asset-VN-live.4d851f5a808cc1ee997e5e41e9fc3614.json","pcmall-pagebuilderplatform":"https://deo.shopeemobile.com/shopee/stm-sg-live/63703/asset-VN-live.1f721bacbc054f31936c7a7e5d5fb954.json","pcmall-pagebuilderimages-imagecollection":"https://deo.shopeemobile.com/shopee/stm-sg-live/65105/asset-VN-live.8dcc9362b713e2f1f4c95cfb2443c382.json","pcmall-pagebuilderimages-oneimage":"https://deo.shopeemobile.com/shopee/stm-sg-live/65190/asset-VN-live.cdf59a10b95167cf5d50fe4442968d6f.json","pcmall-pagebuilderimages-campaigncalendar":"https://deo.shopeemobile.com/shopee/stm-sg-live/65264/asset-VN-live.8ace3006163704472abf9cd0769596bc.json","pcmall-pagebuilderimages-videocollections":"https://deo.shopeemobile.com/shopee/stm-sg-live/65437/asset-VN-live.a6551919eaa06b0f75e78ee1e3834451.json","pcmall-pagebuilderimages-livestream":"https://deo.shopeemobile.com/shopee/stm-sg-live/65524/asset-VN-live.b1a019ece4076456e47b65df6f8c1aa9.json","pcmall-pagebuildervouchers-vouchergrid":"https://deo.shopeemobile.com/shopee/stm-sg-live/66014/asset-VN-live.fb3f3838eabe96571c9da803335728d8.json","pcmall-pagebuildervouchers-vouchergroup":"https://deo.shopeemobile.com/shopee/stm-sg-live/66045/asset-VN-live.09623eac5e9ab1a72859f0fe572b3a01.json","pcmall-pagebuildervouchers-spfsv":"https://deo.shopeemobile.com/shopee/stm-sg-live/66137/asset-VN-live.7bb95e4e2e29b1194022dae3ddf4fb58.json","pcmall-pagebuildervouchers-opv":"https://deo.shopeemobile.com/shopee/stm-sg-live/66233/asset-VN-live.49399ef5ace4e23eeac98e68bd309e00.json","pcmall-pagebuilderwidgets-gap":"https://deo.shopeemobile.com/shopee/stm-sg-live/66401/asset-VN-live.b04c8ffb1f43d85ea5808be41e5a026a.json","pcmall-pagebuilderwidgets-header":"https://deo.shopeemobile.com/shopee/stm-sg-live/66472/asset-VN-live.9eaef456c4a24f147407c9016b79540a.json","pcmall-pagebuilderwidgets-ctabutton":"https://deo.shopeemobile.com/shopee/stm-sg-live/66557/asset-VN-live.7c069fd7dcf03ff8b05bceaf7768e346.json","pcmall-pagebuilderwidgets-anchortab":"https://deo.shopeemobile.com/shopee/stm-sg-live/66628/asset-VN-live.4f5288dd82dab067bfb2936b632aa21f.json","pcmall-pagebuilderwidgets-text":"https://deo.shopeemobile.com/shopee/stm-sg-live/66738/asset-VN-live.bbd8dc4ac8f5cca8df880d7cbcba09b0.json","pcmall-pagebuilderwidgets-iframe":"https://deo.shopeemobile.com/shopee/stm-sg-live/66819/asset-VN-live.129e123af4244cb937854e0db8353a6e.json","pcmall-pagebuilderwidgets-countdowntimmer":"https://deo.shopeemobile.com/shopee/stm-sg-live/66958/asset-VN-live.c65269aa21e81e74ca6b66efc8797dde.json","pcmall-pagebuilderwidgets-backtotop":"https://deo.shopeemobile.com/shopee/stm-sg-live/67048/asset-VN-live.03f38d0d5e82a823ea3325079b6b8176.json","pcmall-pagebuilderwidgets-snp":"https://deo.shopeemobile.com/shopee/stm-sg-live/67105/asset-VN-live.36bc41e5a8d8b600336b9356cee5ec7b.json","pcmall-pagebuilderproducts-productcollection":"https://deo.shopeemobile.com/shopee/stm-sg-live/68253/asset-VN-live.10920694244a2178a5cef11b791ac4b5.json","pcmall-pagebuilderproducts-waterfall":"https://deo.shopeemobile.com/shopee/stm-sg-live/68346/asset-VN-live.0502553be71bcbba97d305a7f61918dc.json","pcmall-pagebuilderproducts-itemrcmd":"https://deo.shopeemobile.com/shopee/stm-sg-live/68452/asset-VN-live.30111c4dcfbafd1e58057d44f6f5b4f6.json","pcmall-pagebuilderproducts-topproduct":"https://deo.shopeemobile.com/shopee/stm-sg-live/68548/asset-VN-live.1730d40ca96d8c20296a77b6c88627ca.json","pcmall-pagebuilderproducts-individualproduct":"https://deo.shopeemobile.com/shopee/stm-sg-live/68638/asset-VN-live.a4d455ab7c0175de4a6d50a286e744c7.json","pcmall-pagebuilderproducts-collectiongroup":"https://deo.shopeemobile.com/shopee/stm-sg-live/68729/asset-VN-live.ab9b9fa6480162714a2889e5bdfacd5a.json","pcmall-pagebuildershops-shopcollection":"https://deo.shopeemobile.com/shopee/stm-sg-live/70180/asset-VN-live.08da5473cdc7adee6f76043fa4468f78.json","pcmall-pagebuildershops-shoprcmd":"https://deo.shopeemobile.com/shopee/stm-sg-live/70268/asset-VN-live.36c8a4959866c79a8342d2ad937be776.json","pcmall-pagebuildermalls-brandlist":"https://deo.shopeemobile.com/shopee/stm-sg-live/70445/asset-VN-live.39c7251e2a9f504628797787e33e7871.json","pcmall-pagebuildermalls-brandforyou":"https://deo.shopeemobile.com/shopee/stm-sg-live/70556/asset-VN-live.d4bb33388cad1ef0213cdf14e034e7d8.json","pcmall-pagebuilderopencomponents-flashsale":"https://deo.shopeemobile.com/shopee/stm-sg-live/71028/asset-VN-live.4553751b02ddb71f90103fed73f5d093.json","pcmall-pagebuilderopencomponents-mallflashsale":"https://deo.shopeemobile.com/shopee/stm-sg-live/71147/asset-VN-live.e228d964785bfbe5db19aa5d15c0d956.json","pcmall-pagebuilderwidgets-categorycircle":"https://deo.shopeemobile.com/shopee/stm-sg-live/71879/asset-VN-live.0da725a29e141af85f6977b3ee7ef986.json","pcmall-pagebuildermalls-popupbanner":"https://deo.shopeemobile.com/shopee/stm-sg-live/72117/asset-VN-live.d8e7c4f132f1054de49bc039473b4ff2.json","pcmall-pagebuildermalls-carouselbanner":"https://deo.shopeemobile.com/shopee/stm-sg-live/72189/asset-VN-live.8c3a394770c8e3afc006d37f0a1401b4.json","pcmall-pagebuilderopencomponents-bundledeal":"https://deo.shopeemobile.com/shopee/stm-sg-live/72828/asset-VN-live.3b6ba29c92a1cfecffa4b561c79bb126.json","pcmall-pagebuilderopencomponents-addondeal":"https://deo.shopeemobile.com/shopee/stm-sg-live/72877/asset-VN-live.8f7063f54d3b1427c81c8821d72843eb.json","pcmall-pagebuilderopencomponents-ppc":"https://deo.shopeemobile.com/shopee/stm-sg-live/73142/asset-VN-live.2c6776da768441429f5c81af5e7fa75c.json","pcmall-pagebuilderopencomponents-ppt":"https://deo.shopeemobile.com/shopee/stm-sg-live/73279/asset-VN-live.5e0ea6b7e8d9e133b71ab88ba38593f1.json","pcmall-transaction":"https://deo.shopeemobile.com/shopee/stm-sg-live/73619/asset-VN-live.f7743c26e51b06d91de708f3eebd4c68.json","pcmall-transactiondetail":"https://deo.shopeemobile.com/shopee/stm-sg-live/74582/asset-VN-live.55b093fdef3625119ff6bf53173b546d.json","pcmall-pagebuildermalls-category":"https://deo.shopeemobile.com/shopee/stm-sg-live/75347/asset-VN-live.615b3404262c8a1fb91c9e5cf6432d5d.json","pcmall-pagebuildermalls-brandoftheweek":"https://deo.shopeemobile.com/shopee/stm-sg-live/75447/asset-VN-live.5dbcc6cc4c06162271bc9bd491092568.json","pcmall-pagebuildermalls-mallsquare":"https://deo.shopeemobile.com/shopee/stm-sg-live/75571/asset-VN-live.d0b2e130c7e5e94fee5ce11272392d2d.json","pcmall-pagebuildermalls-usp":"https://deo.shopeemobile.com/shopee/stm-sg-live/75674/asset-VN-live.64f5cbc992d5eaa82e3305117b394ddb.json","pcmall-pagebuildermalls-rcmd":"https://deo.shopeemobile.com/shopee/stm-sg-live/75929/asset-VN-live.245b426b26c65928938be6de3d2aba62.json","pcmall-microapp-campaign-progress":{"version":1,"assets":{"TRANSIFY_COLLECTION_MAPPING":{"en-live-691":1733282277,"en-us-live-691":1733282277,"es-ar-live-691":1733282277,"es-cl-live-691":1733282277,"es-co-live-691":1733282277,"es-es-live-691":1733282277,"es-mx-live-691":1733282277,"fil-live-691":1733282277,"fr-live-691":1733282277,"hi-live-691":1733282277,"id-live-691":1737603503,"ms-my-live-691":1733282277,"pl-live-691":1733282277,"pt-br-live-691":1733282277,"th-live-691":1733282277,"vi-live-691":1733282277,"zh-hans-live-691":1733282277,"zh-hant-live-691":1733282277}},"metaAppDetails":{},"legacy":{"js":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/microapp/pcmall-microapp-campaign-progress.d416018c974051c6ebfd.legacy.js"],"css":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/microapp/pcmall-microapp-campaign-progress.943902a4d7c12840d056.legacy.css"]},"modern":{"js":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/microapp/pcmall-microapp-campaign-progress.18e278f31e45473fd72d.js"],"css":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/microapp/pcmall-microapp-campaign-progress.df5c2dd2a45b607768e9.css"]}},"pcmall-securityquestionsetup":"https://deo.shopeemobile.com/shopee/stm-sg-live/77492/asset-VN-live.579667b5cc999348794fc1e490199387.json","pcmall-antifraudverifyquestion":"https://deo.shopeemobile.com/shopee/stm-sg-live/77554/asset-VN-live.50db083343ad600192b7cb63548da7c9.json","pcmall-captchademo":"https://deo.shopeemobile.com/shopee/stm-sg-live/78617/asset-VN-live.c25051eeba182ac50f46b2cb4a0e0e48.json","pcmall-antifraudsetupsecurityemail":"https://deo.shopeemobile.com/shopee/stm-sg-live/78733/asset-VN-live.5136ad93aaf47216440a579bb2bdcf05.json","pcmall-buyeruserdesktopdefault":"https://deo.shopeemobile.com/shopee/stm-sg-live/79229/asset-VN-live.1903330277ba341258991cec477c22ea.json","pcmall-buyernotidesktopdefault":"https://deo.shopeemobile.com/shopee/stm-sg-live/79491/asset-VN-live.29eb5942466650135a2fcd674484b7bc.json","pcmall-antifraudtrusteddevicetokensetup":{"version":1,"assets":{},"metaAppDetails":{},"legacy":{"js":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/runtime.61ce4de8395ccdade774.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/6.5267dea787f98c36f35c.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/945.e21f844b0e4fea65526e.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/943.a952efbf2c317bc71859.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/849.55aac1ddce2e72e711b6.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/459.a3ff08cf4b34601796c9.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/925.5b7ad0e641b345ebc619.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/313.3c8b73c6b65beac55cb3.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/pcmall-antifraudtrusteddevicetokensetup.16f1692ce2eb9fd4a73f.legacy.js"],"css":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/pcmall-antifraudtrusteddevicetokensetup.236c15dbca41d22ce75f.legacy.css"]},"modern":{"js":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/runtime.ec1c46977b3b5d4d1c7e.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/353.ca7c3cc8dbe989e64c31.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/945.e706ddc1fef2c8e80907.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/943.35acd6e20a5b6c41bc6b.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/849.c2a661062ea4be927fab.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/459.dcb7085d9dc32081d47e.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/925.bede0774d474f063b86a.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/313.11d9176dd85bc4335f1b.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/pcmall-antifraudtrusteddevicetokensetup.e7158bf0fbaec23f25d7.js"],"css":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/pcmall-antifraudtrusteddevicetokensetup.5ee7549fde794b2129b9.css"]}},"pcmall-antifraudtrusteddevicetoken":{"version":1,"assets":{},"metaAppDetails":{},"legacy":{"js":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/runtime.61ce4de8395ccdade774.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/6.5267dea787f98c36f35c.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/945.e21f844b0e4fea65526e.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/849.55aac1ddce2e72e711b6.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/459.a3ff08cf4b34601796c9.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/925.5b7ad0e641b345ebc619.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/313.3c8b73c6b65beac55cb3.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/pcmall-antifraudtrusteddevicetoken.382c0f194be90fc0b148.legacy.js"],"css":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/pcmall-antifraudtrusteddevicetoken.38b2a7c1f04149334aec.legacy.css"]},"modern":{"js":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/runtime.ec1c46977b3b5d4d1c7e.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/353.ca7c3cc8dbe989e64c31.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/945.e706ddc1fef2c8e80907.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/849.c2a661062ea4be927fab.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/459.dcb7085d9dc32081d47e.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/925.bede0774d474f063b86a.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/313.11d9176dd85bc4335f1b.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/pcmall-antifraudtrusteddevicetoken.86a02c27d6ddfe2707b5.js"],"css":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/pcmall-antifraudtrusteddevicetoken.d0fc3464ebe2ef6c9a1b.css"]}},"pcmall-buyernotidesktopdefault-notificationsetting":{"version":1,"assets":{},"metaAppDetails":{},"legacy":{"js":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/runtime.73d1906098731d7d32d2.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/4.31fe01f088373f5a6a03.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/pcmall-buyernotidesktopdefault-notificationsetting.a4d0710e6a987d9e5286.legacy.js"],"css":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/pcmall-buyernotidesktopdefault-notificationsetting.f63d095ef01fa7905de9.legacy.css"]},"modern":{"js":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/runtime.5028bd5b654cb305fb8e.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/139.e02ad8cae0757c01fcca.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/pcmall-buyernotidesktopdefault-notificationsetting.1ed2493049b4f9ffab18.js"],"css":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/pcmall-buyernotidesktopdefault-notificationsetting.10f5576f6bbc6f992171.css"]}},"pcmall-buyernotidesktopdefault-emailsubscription":{"version":1,"assets":{},"metaAppDetails":{},"legacy":{"js":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/runtime.73d1906098731d7d32d2.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/4.31fe01f088373f5a6a03.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/pcmall-buyernotidesktopdefault-emailsubscription.a8d4f6ce354026af4564.legacy.js"],"css":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/pcmall-buyernotidesktopdefault-emailsubscription.cdd06c9ea6322dc79376.legacy.css"]},"modern":{"js":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/runtime.5028bd5b654cb305fb8e.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/139.e02ad8cae0757c01fcca.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/pcmall-buyernotidesktopdefault-emailsubscription.1565551675614d62a588.js"],"css":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/buyernotidesktopdefault/pcmall-buyernotidesktopdefault-emailsubscription.0d98e9f8b761c56a6f16.css"]}},"pcmall-orderlist":"https://deo.shopeemobile.com/shopee/stm-sg-live/20165/asset-VN-live.df29dfbcc86f2a20ca8923b8a2b841dd.json","pcmall-intermediate":"https://deo.shopeemobile.com/shopee/stm-sg-live/webfe-rp-assets/22370/asset-VN-live.e03058216debe98957a13058fd654306.json","pcmall-homepage":"https://deo.shopeemobile.com/shopee/stm-sg-live/23037/asset-VN-live.4448bc66a7336cec6a1520537e8d572e.json","pcmall-malllanding":"https://deo.shopeemobile.com/shopee/stm-sg-live/39644/asset-VN-live.f2b4bc9f60c38c50e2105f1074741cd3.json","pcmall-ebcomponents-quiz":"https://deo.shopeemobile.com/shopee/stm-sg-live/30941/asset-VN-live.d41cc550a3b4f5c5cda4cd22b23e126f.json","pcmall-ebcomponents-voting":"https://deo.shopeemobile.com/shopee/stm-sg-live/32107/asset-VN-live.455e1b51d5f249487c3dc9db573a5430.json","pcmall-ebcomponents-mb":"https://deo.shopeemobile.com/shopee/stm-sg-live/34493/asset-VN-live.7c32c56430732e2579e37bcd6992e285.json","pcmall-mallbrands":"https://deo.shopeemobile.com/shopee/stm-sg-live/39745/asset-VN-live.89a37824ecec74e1d12eef618896083d.json","pcmall-collectionfe-productcollection":"https://deo.shopeemobile.com/shopee/stm-sg-live/53502/asset-VN-live.fc60b61fc755ff01f4ee968ac731d617.json","pcmall-collectionfe-allcampaigns":"https://deo.shopeemobile.com/shopee/stm-sg-live/54456/asset-VN-live.f4c5fabe5b0b150ffbd7fde997f941f0.json","pcmall-collectionfe-entry-clp":"https://deo.shopeemobile.com/shopee/stm-sg-live/53886/asset-VN-live.98319e2740375033508d2eb361e8250c.json","pcmall-collectionfe-product-clp":"https://deo.shopeemobile.com/shopee/stm-sg-live/53691/asset-VN-live.825fcae35b0574935080c58037358d3d.json","pcmall-categoryfe":"https://deo.shopeemobile.com/shopee/stm-sg-live/57640/asset-VN-live.b5114cb0e05c4b0c8b9ba339cf8b56fa.json","pcmall-collectionfe-shop-clp":"https://deo.shopeemobile.com/shopee/stm-sg-live/53785/asset-VN-live.bfc90b58233bf96622e776bfad044c08.json","pcmall-homepagefe":"https://deo.shopeemobile.com/shopee/stm-sg-live/60003/asset-VN-live.b207e4f82695365c47848047f7b63480.json","pcmall-seo-brand-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/60135/asset-VN-live.4958e0e718d98e595622592ae2408d7d.json","pcmall-search-mart-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/60329/asset-VN-live.5989748380ba9b1b1c772c7bc766d0be.json","pcmall-search-result-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/61012/asset-VN-live.24c97b5435b2d123eb5e1274e7403452.json","pcmall-search-user-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/44369/asset-VN-live.d63c2abf9be7ba42064b0d0180d3418f.json","pcmall-orderdetail":"https://deo.shopeemobile.com/shopee/stm-sg-live/47356/asset-VN-live.2809bce86d9f8844e91c02ca7160af0e.json","pcmall-search-srp-user":"https://deo.shopeemobile.com/shopee/stm-sg-live/44169/asset-VN-live.613129e493755f6902f731a3d4967670.json"}</script></head>
-<body>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://porsche-vietnam.vn/wp-includes/css/dist/block-library/style.min.css?ver=6.0.9' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='url-shortify-css'  href='https://porsche-vietnam.vn/wp-content/plugins/url-shortify/lite/dist/styles/url-shortify.css?ver=1.10.2' type='text/css' media='all' />
+<link rel='stylesheet' id='atf-css'  href='https://porsche-vietnam.vn/wp-content/themes/porsche-2018/res/atf.min.css?ver=6.0.9' type='text/css' media='all' />
+<link rel='stylesheet' id='contentmodules-css'  href='https://porsche-vietnam.vn/wp-content/themes/porsche-2018/res/contentmodules.min.css?ver=6.0.9' type='text/css' media='all' />
+<link rel='stylesheet' id='contentmodules-2-css'  href='https://porsche-vietnam.vn/wp-content/themes/porsche-2018/res/contentmodules.min_2.css?ver=6.0.9' type='text/css' media='all' />
+<link rel='stylesheet' id='contentmodules-3-css'  href='https://porsche-vietnam.vn/wp-content/themes/porsche-2018/res/contentmodules.min_3.css?ver=6.0.9' type='text/css' media='all' />
+<link rel='stylesheet' id='cssMaccan-css'  href='https://porsche-vietnam.vn/wp-content/themes/porsche-2018/css/update-page-maccan.css?ver=6.0.9' type='text/css' media='all' />
+<link rel='stylesheet' id='screen-default-css'  href='https://porsche-vietnam.vn/wp-content/themes/porsche-2018/res/screen-default.min.css?ver=6.0.9' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css?ver=6.0.9' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://porsche-vietnam.vn/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css?ver=5.4.7' type='text/css' media='all' />
+<link rel='stylesheet' id='swiper-css-css'  href='https://porsche-vietnam.vn/wp-content/themes/porsche-2018/jquery/swiper/swiper.min.css?ver=6.0.9' type='text/css' media='all' />
+<link rel='stylesheet' id='main-css'  href='https://porsche-vietnam.vn/wp-content/themes/porsche-2018/style_new.css?ver=6.0.9' type='text/css' media='all' />
+<link rel='stylesheet' id='styles-css'  href='https://porsche-vietnam.vn/wp-content/themes/porsche-2018/style.css?ver=6.0.9' type='text/css' media='all' />
+<script type='text/javascript' src='https://porsche-vietnam.vn/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://porsche-vietnam.vn/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='url-shortify-js-extra'>
+/* <![CDATA[ */
+var usParams = {"ajaxurl":"https:\/\/porsche-vietnam.vn\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://porsche-vietnam.vn/wp-content/plugins/url-shortify/lite/dist/scripts/url-shortify.js?ver=1.10.2' id='url-shortify-js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js?ver=6.0.9' id='fancybox-js'></script>
+<script type='text/javascript' src='https://porsche-vietnam.vn/wp-content/themes/porsche-2018/scripts/lading.js?ver=6.0.9' id='jqueryJS-js'></script>
+<script type='text/javascript' src='https://porsche-vietnam.vn/wp-content/themes/porsche-2018/res/libs-top.min.js?ver=6.0.9' id='libs-js'></script>
+<script type='text/javascript' src='https://porsche-vietnam.vn/wp-content/themes/porsche-2018/jquery/swiper/swiper.min.js?ver=6.0.9' id='swiper-js'></script>
+<script type='text/javascript' id='scripts-js-extra'>
+/* <![CDATA[ */
+var wp_vars = {"ajaxurl":"https:\/\/porsche-vietnam.vn\/wp-admin\/admin-ajax.php","homeurl":"https:\/\/porsche-vietnam.vn","themeurl":"https:\/\/porsche-vietnam.vn\/wp-content\/themes\/porsche-2018"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://porsche-vietnam.vn/wp-content/themes/porsche-2018/scripts.js?ver=6.0.9' id='scripts-js'></script>
+<link rel="https://api.w.org/" href="https://porsche-vietnam.vn/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://porsche-vietnam.vn/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://porsche-vietnam.vn/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 6.0.9" />
+<!-- 
+Start of global snippet: Please do not remove
+Place this snippet between the <head> and </head> tags on every page of your site.
+-->
+<!-- Global site tag (gtag.js) - Google Marketing Platform -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=DC-8276267"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+ 
+  gtag('config', 'DC-8276267');
+</script>
+<!-- End of global snippet: Please do not remove -->
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '430862088142952');
+  fbq('track', 'PageView');
+
+  fbq('track', 'ViewContent');
+
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=430862088142952&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Global site tag (gtag.js) - Google Ads: 701774967 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-701774967"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-701774967');
+</script>
+<!--
+Event snippet for Porsche_PorscheAPAC_Generic_VN_PV on https://porsche-vietnam.vn/: Please do not remove.
+Place this snippet on pages with events you’re tracking. 
+Creation date: 03/09/2022
+-->
+<script>
+  gtag('event', 'conversion', {
+    'allow_custom_scripts': true,
+    'send_to': 'DC-8276267/gener0/porsc014+standard'
+  });
+</script>
 <noscript>
-<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJZQSJF" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+<img src="https://ad.doubleclick.net/ddm/activity/src=8276267;type=gener0;cat=porsc014;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=1?" width="1" height="1" alt=""/>
 </noscript>
-<div id="main"></div>
-<div id="modal"></div>
-<script type="module" src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/webpack-runtime.89ae6929ba5bdc8f.js"></script>
-<script type="module" src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/sfu-stable.c9421dc694385c15.js"></script>
-<script type="module" src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/entry-modules.0e3b7c63af4b4014.js"></script>
-<script type="module" src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/bundle.5934345d987ab0d2.js"></script>
-<script nomodule>function loadStyleLink(e){var t=document.head||document.getElementsByTagName("head")[0],l=document.createElement("link");l.rel="stylesheet",l.type="text/css",l.href=e,t.appendChild(l)}if(!SUPPORT_MODULE){for(var links=["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/bundle.bf7bb5e840d5aa34.legacy.css"],i=0;i<links.length;i++)loadStyleLink(links[i]);try{document.querySelectorAll("[data-modern]").forEach((function(e){e.parentNode.removeChild(e)}))}catch(e){}}</script><script src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/webpack-runtime.ef59fefbf864ce66.legacy.js" defer="defer" nomodule></script><script src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/sfu-stable.6c2b598d767d98d6.legacy.js" defer="defer" nomodule></script><script src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/entry-modules.519eead96fca31e8.legacy.js" defer="defer" nomodule></script><script src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/bundle.9aa28ded8eb37bbf.legacy.js" defer="defer" nomodule></script></body>
+<!-- End of event snippet: Please do not remove -->
+
+<!--
+Event snippet for Porsche_PorscheAPAC_CayenneE3II_VN_PV on https://porsche-vietnam.vn/models/?category=phien-ban-cayenne: Please do not remove.
+Place this snippet on pages with events you’re tracking. 
+Creation date: 09/27/2023
+-->
+<script>
+  gtag('event', 'conversion', {
+    'allow_custom_scripts': true,
+    'send_to': 'DC-8276267/cayen0/porsc005+standard'
+  });
+</script>
+<noscript>
+<img src=""https://ad.doubleclick.net/ddm/activity/src=8276267;type=cayen0;cat=porsc005;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=1?"" width=""1"" height=""1"" alt=""""/>
+</noscript>
+<!-- End of event snippet: Please do not remove -->
+
+<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://porsche-vietnam.vn/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><link rel="icon" href="https://porsche-vietnam.vn/wp-content/uploads/2022/09/favicon.ico" sizes="32x32" />
+<link rel="icon" href="https://porsche-vietnam.vn/wp-content/uploads/2022/09/favicon.ico" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://porsche-vietnam.vn/wp-content/uploads/2022/09/favicon.ico" />
+<meta name="msapplication-TileImage" content="https://porsche-vietnam.vn/wp-content/uploads/2022/09/favicon.ico" />
+<style>.shorten_url { 
+	   padding: 10px 10px 10px 10px ; 
+	   border: 1px solid #AAAAAA ; 
+	   background-color: #EEEEEE ;
+}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><style id="wpforms-css-vars-root">
+				:root {
+					--wpforms-field-border-radius: 3px;
+--wpforms-field-border-style: solid;
+--wpforms-field-border-size: 1px;
+--wpforms-field-background-color: #ffffff;
+--wpforms-field-border-color: rgba( 0, 0, 0, 0.25 );
+--wpforms-field-border-color-spare: rgba( 0, 0, 0, 0.25 );
+--wpforms-field-text-color: rgba( 0, 0, 0, 0.7 );
+--wpforms-field-menu-color: #ffffff;
+--wpforms-label-color: rgba( 0, 0, 0, 0.85 );
+--wpforms-label-sublabel-color: rgba( 0, 0, 0, 0.55 );
+--wpforms-label-error-color: #d63637;
+--wpforms-button-border-radius: 3px;
+--wpforms-button-border-style: none;
+--wpforms-button-border-size: 1px;
+--wpforms-button-background-color: #066aab;
+--wpforms-button-border-color: #066aab;
+--wpforms-button-text-color: #ffffff;
+--wpforms-page-break-color: #066aab;
+--wpforms-background-image: none;
+--wpforms-background-position: center center;
+--wpforms-background-repeat: no-repeat;
+--wpforms-background-size: cover;
+--wpforms-background-width: 100px;
+--wpforms-background-height: 100px;
+--wpforms-background-color: rgba( 0, 0, 0, 0 );
+--wpforms-background-url: none;
+--wpforms-container-padding: 0px;
+--wpforms-container-border-style: none;
+--wpforms-container-border-width: 1px;
+--wpforms-container-border-color: #000000;
+--wpforms-container-border-radius: 3px;
+--wpforms-field-size-input-height: 43px;
+--wpforms-field-size-input-spacing: 15px;
+--wpforms-field-size-font-size: 16px;
+--wpforms-field-size-line-height: 19px;
+--wpforms-field-size-padding-h: 14px;
+--wpforms-field-size-checkbox-size: 16px;
+--wpforms-field-size-sublabel-spacing: 5px;
+--wpforms-field-size-icon-size: 1;
+--wpforms-label-size-font-size: 16px;
+--wpforms-label-size-line-height: 19px;
+--wpforms-label-size-sublabel-font-size: 14px;
+--wpforms-label-size-sublabel-line-height: 17px;
+--wpforms-button-size-font-size: 17px;
+--wpforms-button-size-height: 41px;
+--wpforms-button-size-padding-h: 15px;
+--wpforms-button-size-margin-top: 10px;
+--wpforms-container-shadow-size-box-shadow: none;
+
+				}
+			</style>
+    
+    
+       
+ 
+</head>
+
+<!--  class="pool-pap lang-none region-vietnam" data-pageid="rd2013-homepage" -->
+
+<body class="home blog wpb-js-composer js-comp-ver-5.4.7 vc_responsive">
+
+
+  <div class="b-page-wrapper">
+    <div class="b-page-overlay"></div>
+    <div class="m-00-header m-00-main-navigation-available">
+      <div class="m-00-header-lined-crest">
+        <span class="m-00-crest-wrapper-svg">
+          <a class="m-00-crest-svg" href="https://porsche-vietnam.vn" title="Porsche Vietnam"></a>
+        </span>
+      </div>
+    </div>
+
+    <header class="module-container m-100-header">
+      <div class="module-grid">
+        <div class="m-100-wrapper">
+          <div class="m-00-crest-wrapper-svg"><a class="m-00-crest-svg" href="https://porsche-vietnam.vn" title="Porsche Vietnam"></a></div>
+        </div>
+      </div>
+    </header>
+
+<div class="m-01-main-navigation">
+    <a class="logo-fixed" href="https://porsche-vietnam.vn" title="Porsche Vietnam"><img src="https://porsche-vietnam.vn/wp-content/themes/porsche-2018/images/porsche-logo.jpg"></a>
+    <div class="m-01-menu-item">
+        <a class="m-01-link m-01-menu-button" id="m-01-main-menu-button" href="#">
+          <span>Menu</span>
+        </a>
+        <div class="m-01-sub-menu m-01-level-1">
+            <div class="m-01-menu-section" id="m-01-model-menu">
+                
+                <div class="m-01-menu-item">
+                  <a class="m-01-link m-01-menu-button" id="m-01-models-menu-button" href="https://porsche-vietnam.vn/models/">
+                    <span>Các dòng xe</span>
+                  </a>
+                  <div id="m-01-models-menu-button-content" class="m-01-sub-menu m-01-level-2"></div>
+                </div>
+
+            </div>
+
+            <div class="m-01-menu-section" id="m-01-primary-menu">
+                <div class="m-01-menu-item">
+                    <a class="m-01-link m-01-menu-button" id="m-01-primary-menu-button" href="#primary-menu">
+                        <span>Menu</span>
+                    </a>
+
+                    <div class="m-01-sub-menu m-01-level-2">
+                        <div id="menu-item-11294" class="m-01-menu-item "><a href="https://porsche-vietnam.vn/xe-moi/" class="m-01-link"><span>Xe mới</span></a></div>
+<div id="menu-item-11296" class="m-01-menu-item "><a href="https://porsche-vietnam.vn/dai-ly/" class="m-01-link"><span>Trung tâm Porsche</span></a>
+<div class="m-01-sub-menu m-01-level-3">
+	<div id="menu-item-21242" class="m-01-menu-item "><a href="https://dealer.porsche.com/vn/saigon/vi-VN" class="m-01-link"><span>Trung tâm Porsche Sài Gòn</span></a></div>
+	<div id="menu-item-21243" class="m-01-menu-item "><a href="https://dealer.porsche.com/vn/hanoi/vi-VN" class="m-01-link"><span>Trung tâm Porsche Hà Nội</span></a></div>
+	<div id="menu-item-21244" class="m-01-menu-item "><a href="https://dealer.porsche.com/vn/hanoi/vi-VN/Tin-Tuc-va-Su-Kien/PSH" class="m-01-link"><span>Porsche Studio Hà Nội</span></a></div>
+</div>
+</div>
+<div id="menu-item-11299" class="m-01-menu-item "><a href="https://porsche-vietnam.vn/dich-vu/" class="m-01-link"><span>Dịch vụ</span></a>
+<div class="m-01-sub-menu m-01-level-3">
+	<div id="menu-item-11300" class="m-01-menu-item "><a href="https://porsche-vietnam.vn/dich-vu/dich-vu-ban-hang/" class="m-01-link"><span>Dịch vụ bán hàng</span></a></div>
+	<div id="menu-item-11301" class="m-01-menu-item "><a href="https://porsche-vietnam.vn/dich-vu/dich-vu-hau-mai/" class="m-01-link"><span>Dịch vụ hậu mãi</span></a></div>
+	<div id="menu-item-16155" class="m-01-menu-item "><a href="https://porsche-vietnam.vn/dich-vu/dich-vu-hau-mai/phu-tung-va-phu-kien-chinh-hang/phu-kien-chinh-hang/" class="m-01-link"><span>Phụ kiện Tequipment</span></a></div>
+	<div id="menu-item-11481" class="m-01-menu-item "><a href="https://porsche-vietnam.vn/dich-vu/dich-vu-hau-mai/bo-suu-tap-thoi-trang-cua-porsche/" class="m-01-link"><span>Bộ sưu tập phong cách sống Porsche</span></a></div>
+	<div id="menu-item-20427" class="m-01-menu-item "><a href="https://porsche-vietnam.vn/dich-vu/chuong-trinh-uu-dai-hau-mai/" class="m-01-link"><span>Chương Trình Ưu Đãi Hậu Mãi</span></a></div>
+</div>
+</div>
+<div id="menu-item-11302" class="m-01-menu-item "><a href="https://porsche-vietnam.vn/ve-porsche/" class="m-01-link"><span>Về Porsche</span></a>
+<div class="m-01-sub-menu m-01-level-3">
+	<div id="menu-item-11303" class="m-01-menu-item "><a href="https://porsche-vietnam.vn/ve-porsche/porsche-ag/" class="m-01-link"><span>Porsche AG</span></a></div>
+	<div id="menu-item-11304" class="m-01-menu-item "><a href="https://porsche-vietnam.vn/ve-porsche/porsche-viet-nam/" class="m-01-link"><span>Porsche Việt Nam</span></a></div>
+	<div id="menu-item-11305" class="m-01-menu-item "><a href="https://porsche-vietnam.vn/ve-porsche/tin-tuc-va-su-kien/" class="m-01-link"><span>Tin tức và Sự kiện</span></a></div>
+	<div id="menu-item-11306" class="m-01-menu-item "><a href="https://porsche-vietnam.vn/ve-porsche/thong-tin-bao-chi/" class="m-01-link"><span>Thông tin báo chí</span></a></div>
+	<div id="menu-item-11307" class="m-01-menu-item "><a href="https://porsche-vietnam.vn/ve-porsche/co-hoi-viec-lam/" class="m-01-link"><span>Cơ hội việc làm</span></a></div>
+</div>
+</div>
+<div id="menu-item-17471" class="m-01-menu-item "><a href="http://porsche-vietnam.vn/#" class="m-01-link"><span>Tiêu điểm</span></a>
+<div class="m-01-sub-menu m-01-level-3">
+	<div id="menu-item-21528" class="m-01-menu-item "><a href="https://porsche-vietnam.vn/trai-nghiem-co-mot-khong-hai-tai-porsche-leipzig/" class="m-01-link"><span>Trải nghiệm có một không hai tại Porsche Leipzig</span></a></div>
+</div>
+</div>
+                
+                    </div>
+                </div>
+            </div>
+
+            <div class="m-01-menu-section hasdealersearch" id="m-01-blue-buttons">
+              <form id="m-01-site-search-form" action="https://porsche-vietnam.vn">
+                <div class="m-01-field-button-combo">
+                  <input class="m-01-input-field" id="m-01-site-search-field" type="search" placeholder="Tìm kiếm" autocorrect="off" autocapitalize="off" type="text" name="s" value="" />
+                  <button type="submit" class="m-01-search-submit-button">Tìm kiếm</button>
+                </div>
+              </form>
+            <div class="m-01-menu-item" id="m-01-car-configurator-button">
+                <a class="m-01-link" href="https://www.porsche.com/pap/_vietnam_/modelstart/all/" target="_blank">
+                    <span>Tạo cấu hình xe</span>
+                </a>
+            </div>
+
+              <!-- html-new -->
+              <div class="menu-section_link">
+                <a class="contact_link" href="https://porsche-vietnam.vn/dai-ly/">
+                    <span>Liên hệ</span>
+                </a>
+              </div>
+              <!-- end -->
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="m-101__button-bar">
+            <div class="m-101__menuitem m-101__trigger" role="button" data-target-menu="models">
+                <div class="m-101__button__text">Các dòng xe</div>
+                <div class="icon-contact">
+                    <a role="link" onclick="click_menu(this)" href="https://porsche-vietnam.vn/dai-ly/" data-href="https://porsche-vietnam.vn/dai-ly/">
+                        Liên hệ
+                    </a>
+                </div>
+                <nav class="m-101__navigation" data-menu="models" data-toplevel="true" role="navigation">
+                  <div class="m-101__menu" id = "mega-menu-mobile">
+                    <div class="m-101__backlink" role="button">
+                      <div class="m-101__backlink__text">Các dòng xe</div>
+                    </div>
+                    </div>
+                    <div class="m-101__shopping-buttons">
+                      <a role="link" data-href="https://www.porsche.com/pap/_vietnam_/modelstart/" href="https://www.porsche.com/pap/_vietnam_/modelstart/" class="m-101__shopping-button s-icon--ccmodelstart none-text-decoration">Tạo cấu hình xe</a>
+                      <a role="link" data-href="https://porsche-vietnam.vn/models/" href="https://porsche-vietnam.vn/models/" class="m-101__shopping-button s-icon--quickcompare none-text-decoration">So sánh xe</a>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="m-101__menuitem m-101__trigger" data-target-menu="home">
+              <div class="m-101__button__text">Menu</div>
+              <nav class="m-101__navigation" data-menu="home" role="navigation" data-toplevel="true">
+                <div class="m-101__menu">
+                  <div class="m-101__backlink" role="button">
+                    <div class="m-101__backlink__text">Menu</div>
+                  </div>
+
+                  <div class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11294 m-101__menuitem" role="link" data-href = "https://porsche-vietnam.vn/xe-moi/"><div class="m-101__menuitem__text" >Xe mới</div></div>
+<div class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-11296 m-101__menuitem" role="button" data-target-menu="menu-item-has-children-11296"><div class="m-101__menuitem__text" >Trung tâm Porsche</div>
+<nav class="m-101__navigation" role='navigation'><div class='m-101__menu'>
+	<div class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21242 m-101__menuitem" role="link" data-href = "https://dealer.porsche.com/vn/saigon/vi-VN"><div class="m-101__menuitem__text" >Trung tâm Porsche Sài Gòn</div></div>
+	<div class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21243 m-101__menuitem" role="link" data-href = "https://dealer.porsche.com/vn/hanoi/vi-VN"><div class="m-101__menuitem__text" >Trung tâm Porsche Hà Nội</div></div>
+	<div class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21244 m-101__menuitem" role="link" data-href = "https://dealer.porsche.com/vn/hanoi/vi-VN/Tin-Tuc-va-Su-Kien/PSH"><div class="m-101__menuitem__text" >Porsche Studio Hà Nội</div></div>
+</div></nav>
+</div>
+<div class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-11299 m-101__menuitem" role="button" data-target-menu="menu-item-has-children-11299"><div class="m-101__menuitem__text" >Dịch vụ</div>
+<nav class="m-101__navigation" role='navigation'><div class='m-101__menu'>
+	<div class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11300 m-101__menuitem" role="link" data-href = "https://porsche-vietnam.vn/dich-vu/dich-vu-ban-hang/"><div class="m-101__menuitem__text" >Dịch vụ bán hàng</div></div>
+	<div class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11301 m-101__menuitem" role="link" data-href = "https://porsche-vietnam.vn/dich-vu/dich-vu-hau-mai/"><div class="m-101__menuitem__text" >Dịch vụ hậu mãi</div></div>
+	<div class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16155 m-101__menuitem" role="link" data-href = "https://porsche-vietnam.vn/dich-vu/dich-vu-hau-mai/phu-tung-va-phu-kien-chinh-hang/phu-kien-chinh-hang/"><div class="m-101__menuitem__text" >Phụ kiện Tequipment</div></div>
+	<div class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11481 m-101__menuitem" role="link" data-href = "https://porsche-vietnam.vn/dich-vu/dich-vu-hau-mai/bo-suu-tap-thoi-trang-cua-porsche/"><div class="m-101__menuitem__text" >Bộ sưu tập phong cách sống Porsche</div></div>
+	<div class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20427 m-101__menuitem" role="link" data-href = "https://porsche-vietnam.vn/dich-vu/chuong-trinh-uu-dai-hau-mai/"><div class="m-101__menuitem__text" >Chương Trình Ưu Đãi Hậu Mãi</div></div>
+</div></nav>
+</div>
+<div class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-11302 m-101__menuitem" role="button" data-target-menu="menu-item-has-children-11302"><div class="m-101__menuitem__text" >Về Porsche</div>
+<nav class="m-101__navigation" role='navigation'><div class='m-101__menu'>
+	<div class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11303 m-101__menuitem" role="link" data-href = "https://porsche-vietnam.vn/ve-porsche/porsche-ag/"><div class="m-101__menuitem__text" >Porsche AG</div></div>
+	<div class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11304 m-101__menuitem" role="link" data-href = "https://porsche-vietnam.vn/ve-porsche/porsche-viet-nam/"><div class="m-101__menuitem__text" >Porsche Việt Nam</div></div>
+	<div class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11305 m-101__menuitem" role="link" data-href = "https://porsche-vietnam.vn/ve-porsche/tin-tuc-va-su-kien/"><div class="m-101__menuitem__text" >Tin tức và Sự kiện</div></div>
+	<div class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11306 m-101__menuitem" role="link" data-href = "https://porsche-vietnam.vn/ve-porsche/thong-tin-bao-chi/"><div class="m-101__menuitem__text" >Thông tin báo chí</div></div>
+	<div class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11307 m-101__menuitem" role="link" data-href = "https://porsche-vietnam.vn/ve-porsche/co-hoi-viec-lam/"><div class="m-101__menuitem__text" >Cơ hội việc làm</div></div>
+</div></nav>
+</div>
+<div class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-17471 m-101__menuitem" role="button" data-target-menu="menu-item-has-children-17471"><div class="m-101__menuitem__text" >Tiêu điểm</div>
+<nav class="m-101__navigation" role='navigation'><div class='m-101__menu'>
+	<div class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21528 m-101__menuitem" role="link" data-href = "https://porsche-vietnam.vn/trai-nghiem-co-mot-khong-hai-tai-porsche-leipzig/"><div class="m-101__menuitem__text" >Trải nghiệm có một không hai tại Porsche Leipzig</div></div>
+</div></nav>
+</div>
+                        
+                  <div class="m-101__menuitem" role="link" data-href="https://porsche-vietnam.vn?s=" >
+                    <div class="m-101__menuitem__text">Tìm kiếm</div>
+                  </div>
+              </div>
+              <!-- <div class="m-101__shopping-buttons">
+                  <div data-href="javascript:POPUP.CC_Overview('/pap/_vietnam_/modelstart/');" data-role="link" class="m-101__shopping-button s-icon--ccmodelstart">Car Configurator</div>
+              </div> -->
+          </nav>
+      </div>
+  </div>
+
+<div class="m-04-intro-section-home-slider-wrapper">
+  <div class="m-04-intro-section-home-slider home royalSlider contentSlider">
+    
+			<div class="m-04-intro-section-slide rsContent">
+	      <div class="m-04-intro-section-slide-img">
+	        <img alt="992-II-headbanner" src="https://porsche-vietnam.vn/wp-content/uploads/2025/03/992-II-headbanner-1600x616.jpg" title="992-II-headbanner" />
+
+	        <div class="m-04-intro-section-slide-text m-04-bottom m-04-left white">
+	          <div class="m-04-intro-section-slide-text-inner">
+	            <a href="https://porsche-vietnam.vn/model/911-targa-4-gts-2/" class="m-04-intro-section-block gui-double-headline-with-arrow">
+	              <div class="claim-part-1">Độc Bản. Kinh Điển.</div>
+	              <span class="claim-part-2">Porsche 911 mới. </span>
+	            </a>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+			<div class="m-04-intro-section-slide rsContent">
+	      <div class="m-04-intro-section-slide-img">
+	        <img alt="MA24T4COX0001_low-headbanner" src="https://porsche-vietnam.vn/wp-content/uploads/2024/12/MA24T4COX0001_low-headbanner-1600x615.jpg" title="MA24T4COX0001_low-headbanner" />
+
+	        <div class="m-04-intro-section-slide-text m-04-bottom m-04-left white">
+	          <div class="m-04-intro-section-slide-text-inner">
+	            <a href="https://porsche-vietnam.vn/model/macan-4-electric/" class="m-04-intro-section-block gui-double-headline-with-arrow">
+	              <div class="claim-part-1">Bản Sắc. Thời Thượng.</div>
+	              <span class="claim-part-2">Macan thuần điện mới.</span>
+	            </a>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+			<div class="m-04-intro-section-slide rsContent">
+	      <div class="m-04-intro-section-slide-img">
+	        <img alt="RD-2024-µ20Homepage-Banner-WW-TaycanJ1-KW06" src="https://porsche-vietnam.vn/wp-content/uploads/2019/12/RD-2024-µ20Homepage-Banner-WW-TaycanJ1-KW06-1600x615.jpg" title="RD-2024-µ20Homepage-Banner-WW-TaycanJ1-KW06" />
+
+	        <div class="m-04-intro-section-slide-text m-04-bottom m-04-left white">
+	          <div class="m-04-intro-section-slide-text-inner">
+	            <a href="https://porsche-vietnam.vn/models/?category=phien-ban-taycan" class="m-04-intro-section-block gui-double-headline-with-arrow">
+	              <div class="claim-part-1">Choáng ngợp cảm xúc.</div>
+	              <span class="claim-part-2">Taycan mới.</span>
+	            </a>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+			<div class="m-04-intro-section-slide rsContent">
+	      <div class="m-04-intro-section-slide-img">
+	        <img alt="Panamera-G3-headbanner" src="https://porsche-vietnam.vn/wp-content/uploads/2018/09/Panamera-G3-headbanner-1600x615.jpg" title="Panamera-G3-headbanner" />
+
+	        <div class="m-04-intro-section-slide-text m-04-top m-04-left white">
+	          <div class="m-04-intro-section-slide-text-inner">
+	            <a href="https://porsche-vietnam.vn/models/?category=phien-ban-panamera" class="m-04-intro-section-block gui-double-headline-with-arrow">
+	              <div class="claim-part-1">Biểu tượng của bản lĩnh.</div>
+	              <span class="claim-part-2">Panamera mới.</span>
+	            </a>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+			<div class="m-04-intro-section-slide rsContent">
+	      <div class="m-04-intro-section-slide-img">
+	        <img alt="RD-2023-Homepage-Banner-WW-E3II-µ20KW16" src="https://porsche-vietnam.vn/wp-content/uploads/2018/10/RD-2023-Homepage-Banner-WW-E3II-µ20KW16-1600x615.jpg" title="RD-2023-Homepage-Banner-WW-E3II-µ20KW16" />
+
+	        <div class="m-04-intro-section-slide-text m-04-top m-04-left white">
+	          <div class="m-04-intro-section-slide-text-inner">
+	            <a href="http://porsche-vietnam.vn/model/cayenne/" class="m-04-intro-section-block gui-double-headline-with-arrow">
+	              <div class="claim-part-1">Xa hơn cùng nhau.</div>
+	              <span class="claim-part-2">Dòng xe Cayenne.</span>
+	            </a>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+			<div class="m-04-intro-section-slide rsContent">
+	      <div class="m-04-intro-section-slide-img">
+	        <img alt="rd-2021-homepage-banner-pcna-macanii-kw29-" src="https://porsche-vietnam.vn/wp-content/uploads/2019/04/rd-2021-homepage-banner-pcna-macanii-kw29--1600x615.jpg" title="rd-2021-homepage-banner-pcna-macanii-kw29-" />
+
+	        <div class="m-04-intro-section-slide-text m-04-bottom m-04-left white">
+	          <div class="m-04-intro-section-slide-text-inner">
+	            <a href="https://porsche-vietnam.vn/models/?category=phien-ban-macan" class="m-04-intro-section-block gui-double-headline-with-arrow">
+	              <div class="claim-part-1">Can đảm dẫn đầu.</div>
+	              <span class="claim-part-2">Macan S mới.</span>
+	            </a>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+			<div class="m-04-intro-section-slide rsContent">
+	      <div class="m-04-intro-section-slide-img">
+	        <img alt="718-Boxster-S-718-Cayman-S" src="https://porsche-vietnam.vn/wp-content/uploads/2017/01/718-Boxster-S-718-Cayman-S-1600x615.jpg" title="718-Boxster-S-718-Cayman-S" />
+
+	        <div class="m-04-intro-section-slide-text m-04-top m-04-right black">
+	          <div class="m-04-intro-section-slide-text-inner">
+	            <a href="https://porsche-vietnam.vn/models/?category=718" class="m-04-intro-section-block gui-double-headline-with-arrow">
+	              <div class="claim-part-1">Thể thao thuần khiết.</div>
+	              <span class="claim-part-2">Dòng xe 718 Boxster và 718 Cayman.</span>
+	            </a>
+	          </div>
+	        </div>
+	      </div>
+	    </div>  </div>
+</div>
+	
+<!-- html-new -->
+<div class="module-container-link">
+	<ul class="tab_link-page">
+		<li><a href="https://porsche-vietnam.vn/xe-moi/">
+			<div class="_img"><img src="https://porsche-vietnam.vn/wp-content/themes/porsche-2018/images/home-icon1.png"></div>
+			<div class="_text">Xe mới</div>
+		</a></li>
+		<li class = "hidden-xs"><a href="http://porsche-vietnam.vn/models/" target="blank">
+			<div class="_img"><img src="https://porsche-vietnam.vn/wp-content/themes/porsche-2018/images/checklist.png"></div>
+			<div class="_text">Bảng giá</div>
+		</a></li>
+    <li class = "hidden-md"><a href="http://porsche-vietnam.vn/models/" target="blank">
+      <div class="_img"><img src="https://porsche-vietnam.vn/wp-content/themes/porsche-2018/images/checklist.png"></div>
+      <div class="_text">Bảng giá</div>
+    </a></li>
+		<li><a href="https://porsche-vietnam.vn/dai-ly/">
+			<div class="_img"><img src="https://porsche-vietnam.vn/wp-content/themes/porsche-2018/images/home-icon3.png"></div>
+			<div class="_text">Liên hệ</div>
+		</a></li>
+		<li><a href="https://porsche-vietnam.vn/models/">
+			<div class="_img"><img src="https://porsche-vietnam.vn/wp-content/themes/porsche-2018/images/home-icon4.png"></div>
+			<div class="_text">So sánh xe</div>
+		</a></li>
+	</ul>
+</div>
+<!-- end -->
+
+<!-- Module -->
+<div class="module-container m-107-car-range">
+  <div class="module-grid">
+    <h2 class="module-headline">
+    	<span>Các dòng xe</span>
+  	</h2>
+
+  			<div class="m-107-tile">
+	    <a href="https://porsche-vietnam.vn/models/?category=718" class="m-107-tile__link">
+        <img alt="718" src="https://porsche-vietnam.vn/wp-content/uploads/2024/07/carrange-flyout-718-320x360.jpg" title="718" />
+        <div class="m-107-tile__headline">
+          <span>718</span>          
+        </div>
+	    </a>
+	    <div class="m-107-tile__info">
+        <a href="https://porsche-vietnam.vn/models/?category=718" class="m-107-info__headline">
+          <span>718</span>
+        </a>
+        <span class="m-107-info__price">Giá từ 3.850.000.000 VNĐ*</span>
+        <div class="m-107-info__link-wrapper">
+          <a href="https://porsche-vietnam.vn/models/?category=718" class="m-107-info__link">Tất cả mẫu xe</a>
+          <a class="m-107-info__link" href="https://porsche-vietnam.vn/models/?category=718">So sánh xe</a>
+        </div>
+	    </div>
+		</div>
+				<div class="m-107-tile">
+	    <a href="https://porsche-vietnam.vn/models/?category=911" class="m-107-tile__link">
+        <img alt="911" src="https://porsche-vietnam.vn/wp-content/uploads/2025/03/Model-select-992-2-320x360.jpeg" title="911" />
+        <div class="m-107-tile__headline">
+          <span>911</span>          
+        </div>
+	    </a>
+	    <div class="m-107-tile__info">
+        <a href="https://porsche-vietnam.vn/models/?category=911" class="m-107-info__headline">
+          <span>911</span>
+        </a>
+        <span class="m-107-info__price">Đang cập nhật</span>
+        <div class="m-107-info__link-wrapper">
+          <a href="https://porsche-vietnam.vn/models/?category=911" class="m-107-info__link">Tất cả mẫu xe</a>
+          <a class="m-107-info__link" href="https://porsche-vietnam.vn/models/?category=911">So sánh xe</a>
+        </div>
+	    </div>
+		</div>
+				<div class="m-107-tile">
+	    <a href="https://porsche-vietnam.vn/models/?category=taycan" class="m-107-tile__link">
+        <img alt="Taycan" src="https://porsche-vietnam.vn/wp-content/uploads/2024/10/carrange-flyout-taycan-j1ii-320x360.jpg" title="Taycan" />
+        <div class="m-107-tile__headline">
+          <span>Taycan</span>          
+        </div>
+	    </a>
+	    <div class="m-107-tile__info">
+        <a href="https://porsche-vietnam.vn/models/?category=taycan" class="m-107-info__headline">
+          <span>Taycan</span>
+        </a>
+        <span class="m-107-info__price">Giá từ 4.620.000.000 VNĐ*</span>
+        <div class="m-107-info__link-wrapper">
+          <a href="https://porsche-vietnam.vn/models/?category=taycan" class="m-107-info__link">Tất cả mẫu xe</a>
+          <a class="m-107-info__link" href="https://porsche-vietnam.vn/models/?category=taycan">So sánh xe</a>
+        </div>
+	    </div>
+		</div>
+				<div class="m-107-tile">
+	    <a href="https://porsche-vietnam.vn/models/?category=panamera" class="m-107-tile__link">
+        <img alt="Panamera" src="https://porsche-vietnam.vn/wp-content/uploads/2024/05/carrange-flyout-panamera-320x360.jpg" title="Panamera" />
+        <div class="m-107-tile__headline">
+          <span>Panamera</span>          
+        </div>
+	    </a>
+	    <div class="m-107-tile__info">
+        <a href="https://porsche-vietnam.vn/models/?category=panamera" class="m-107-info__headline">
+          <span>Panamera</span>
+        </a>
+        <span class="m-107-info__price">Giá từ 6.420.000.000 VNĐ*</span>
+        <div class="m-107-info__link-wrapper">
+          <a href="https://porsche-vietnam.vn/models/?category=panamera" class="m-107-info__link">Tất cả mẫu xe</a>
+          <a class="m-107-info__link" href="https://porsche-vietnam.vn/models/?category=panamera">So sánh xe</a>
+        </div>
+	    </div>
+		</div>
+				<div class="m-107-tile">
+	    <a href="https://porsche-vietnam.vn/models/?category=macan" class="m-107-tile__link">
+        <img alt="Macan" src="https://porsche-vietnam.vn/wp-content/uploads/2021/11/carrange-flyout-macan-320x360.jpg" title="Macan" />
+        <div class="m-107-tile__headline">
+          <span>Macan</span>          
+        </div>
+	    </a>
+	    <div class="m-107-tile__info">
+        <a href="https://porsche-vietnam.vn/models/?category=macan" class="m-107-info__headline">
+          <span>Macan</span>
+        </a>
+        <span class="m-107-info__price">Giá từ 3.350.000.000 VNĐ*</span>
+        <div class="m-107-info__link-wrapper">
+          <a href="https://porsche-vietnam.vn/models/?category=macan" class="m-107-info__link">Tất cả mẫu xe</a>
+          <a class="m-107-info__link" href="https://porsche-vietnam.vn/models/?category=macan">So sánh xe</a>
+        </div>
+	    </div>
+		</div>
+				<div class="m-107-tile">
+	    <a href="https://porsche-vietnam.vn/models/?category=cayenne" class="m-107-tile__link">
+        <img alt="Cayenne" src="https://porsche-vietnam.vn/wp-content/uploads/2024/07/carrange-flyout-cayenne-320x360.jpg" title="Cayenne" />
+        <div class="m-107-tile__headline">
+          <span>Cayenne</span>          
+        </div>
+	    </a>
+	    <div class="m-107-tile__info">
+        <a href="https://porsche-vietnam.vn/models/?category=cayenne" class="m-107-info__headline">
+          <span>Cayenne</span>
+        </a>
+        <span class="m-107-info__price">Giá từ 5.560.000.000 VNĐ*</span>
+        <div class="m-107-info__link-wrapper">
+          <a href="https://porsche-vietnam.vn/models/?category=cayenne" class="m-107-info__link">Tất cả mẫu xe</a>
+          <a class="m-107-info__link" href="https://porsche-vietnam.vn/models/?category=cayenne">So sánh xe</a>
+        </div>
+	    </div>
+		</div>
+		
+		<div class="m-107-tile m-107-hide-on-desktop">
+      <a href="https://porsche-vietnam.vn/models/" class="m-107-tile__link">
+          <img alt="Porsche - All Models" src="data:image/gif;base64,R0lGODlhCAAJAPEAAP///////wAAAAAAACH5BAEAAAAALAAAAAAIAAkAAAgQAAEIHEiwoMGDCBMqXGgwIAA7" data-image-src="https://files1.porsche.com/filestore/image/multimedia/none/jdp-2017-carrange-oddrow/normal/33f289f2-f6ee-11e7-bbc5-0019999cd470/porsche-normal.jpg" data-width="1600" data-height="1800" class="m-107-tile__image" title="Porsche - All Models" />
+          <div class="m-107-tile__headline">
+              <span>Tất cả dòng xe</span>
+          </div>
+      </a>
+      <div class="m-107-tile__info">
+          <a class="m-107-info__headline" href="https://porsche-vietnam.vn/models/">
+              <span>Tất cả dòng xe</span>
+          </a>
+          <span class="m-107-info__price"></span>
+          <div class="m-107-info__link-wrapper">
+              <a href="https://porsche-vietnam.vn/models/" class="m-107-info__link">Tất cả dòng xe</a>
+              <a class="m-107-info__link" href="https://porsche-vietnam.vn/models/">So sánh xe</a>
+          </div>
+      </div>
+  	</div>
+
+  </div>
+  <div class="pricedisclaimer"></div>
+</div>
+
+<!--CONTROL END Countdown_Module_template-->
+	<div class="module-container m-105-teaser">
+	  <div class="module-grid">
+	    <h2 class="module-headline">
+	    	<span>Khám phá</span>
+	  	</h2>
+
+	    <div class="m-105-slider-container">
+	    		    	<a href="https://porsche-vietnam.vn/tin-tuc-va-su-kien/uu-dai-dac-biet-banh-xe-tequipment/" class="m-105-tile">
+	    		<img width="521" height="384" src="https://porsche-vietnam.vn/wp-content/uploads/2025/02/teq-wheel-set-stock-clearance-desktop-banner-521x384.jpg" class="attachment-medium size-medium wp-post-image" alt="TEQ Special Sales - Wheel set stock clearance" loading="lazy" />
+	    		
+	        <div class="m-105-tile__copy">
+            <span>Ưu đãi Đặc biệt Phụ kiện Porsche Tequipment</span>
+	        </div>
+	    	</a>
+	    		    	<a href="https://porsche-vietnam.vn/tin-tuc-va-su-kien/dich-vu-bao-duong-luu-dong-2025-cua-porsche/" class="m-105-tile">
+	    		<img width="521" height="384" src="https://porsche-vietnam.vn/wp-content/uploads/2025/01/mobile-service-2025-desktop-banner-521x384.jpg" class="attachment-medium size-medium wp-post-image" alt="Porsche Mobile Service 2025" loading="lazy" />
+	    		
+	        <div class="m-105-tile__copy">
+            <span>Dịch vụ Bảo dưỡng Lưu động 2025 của Porsche</span>
+	        </div>
+	    	</a>
+	    		    	<a href="https://porsche-vietnam.vn/tin-tuc-va-su-kien/50-nam-vuot-troi-porsche-911-turbo-co-may-kinh-dien/" class="m-105-tile">
+	    		<img width="521" height="384" src="https://porsche-vietnam.vn/wp-content/uploads/2024/10/M04_PORSCHE_PLX_SNEAKER_BRIGHTBLUE_sRGB_150dpi_headbanner-521x384.jpg" class="attachment-medium size-medium wp-post-image" alt="" loading="lazy" />
+	    		
+	        <div class="m-105-tile__copy">
+            <span>Giày thể thao bản giới hạn Kỷ niệm 50 năm 911 Turbo dành riêng cho Châu Á &#8211; Thái Bình Dương</span>
+	        </div>
+	    	</a>
+	    		    	<a href="https://porsche-vietnam.vn/tin-tuc-va-su-kien/ban-tin-dich-vu-porsche-2024/" class="m-105-tile">
+	    		<img width="521" height="384" src="https://porsche-vietnam.vn/wp-content/uploads/2024/11/porsche-vietnam-cskh-2024-headbanner-521x384.jpg" class="attachment-medium size-medium wp-post-image" alt="" loading="lazy" />
+	    		
+	        <div class="m-105-tile__copy">
+            <span>Bản tin Dịch vụ Porsche 2024</span>
+	        </div>
+	    	</a>
+	    	    	</div>
+	  </div>
+	</div>
+
+
+<div class="module-container m-132 ">
+  <div class="module-grid">
+    <h2 class="module-headline"><span>Thế giới Porsche</span></h2>
+      <!-- <div id="StoryStreamWidgetApp" class="stry-widget content-full-width"></div> -->
+      <!-- html-new -->
+      <div class="stry-widget-list" id="stry-widget-slide">
+        <div class="stry-widget-column stry-widget-column-1">
+        </div>
+
+        <div class="stry-widget-column stry-widget-column-2">
+          
+        </div>
+
+        <div class="stry-widget-column stry-widget-column-3">          
+        </div>
+      </div>
+
+      <div class="stry-widget-popup stry-widget-popup-instagram" id="stry-widget-popup">
+        <div class="stry-popup-content">
+          <div class="stry-popup-close">x</div>
+          <div class="_img">
+            <img src="https://porsche-vietnam.vn/wp-content/themes/porsche-2018/images/home-img1.jpg">
+          </div>
+          <div class="_text">
+            <div class="description_bottom">
+              <div class="_left"><img src="https://porsche-vietnam.vn/wp-content/themes/porsche-2018/images/logo.jpg"></div>
+              <div class="_right">
+                <p class="_name">Porsche</p>
+                <!-- <p class="_date">14/06/2018</p> -->
+              </div>
+            </div>
+            <div class="_content">
+              <h2></h2>
+              <p>A view as rewarding as the drive itself #PorscheMoment (📷: @nicholask_la)</p>
+            </div>
+            <div class="icon-top"><a href="#" target="_bank"><img src="https://porsche-vietnam.vn/wp-content/themes/porsche-2018/images/instargram.png"></a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stry-widget-popup" id="stry-widget-popup-facebook">
+        <div class="stry-popup-content">
+          <div class="stry-popup-close">x</div>
+          <div class="_img">
+            <img src="https://porsche-vietnam.vn/wp-content/themes/porsche-2018/images/home-img1.jpg">
+          </div>
+          <div class="_text">
+            <div class="description_bottom">
+              <div class="_left"><img src="https://porsche-vietnam.vn/wp-content/themes/porsche-2018/images/logo.jpg"></div>
+              <div class="_right">
+                <p class="_name">Porsche</p>
+                <!-- <p class="_date">14/06/2018</p> -->
+              </div>
+            </div>
+            <div class="_content">
+              <h2></h2>
+              <p>A view as rewarding as the drive itself #PorscheMoment (📷: @nicholask_la)</p>
+            </div>
+            <div class="icon-top"><a href="#" target="_bank"><img src="https://porsche-vietnam.vn/wp-content/themes/porsche-2018/images/home-icon-facebook.png"></a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stry-widget-popup popup_media" id="stry-widget-popup-media">
+        <div class="stry-popup-content">
+          <div class="stry-popup-close">x</div>
+          <div class="media">
+            <div class="media_iframe">
+              <iframe src="" frameborder="0" height="100%" width="100%"></iframe>
+            </div>
+          </div>
+          <div class="_text">
+            <div class="description_bottom">
+              <div class="_left"><img src="https://porsche-vietnam.vn/wp-content/themes/porsche-2018/images/logo.jpg"></div>
+                <div class="_right">
+                  <p class="_name">Porsche</p>
+                  <p class="_date"></p>
+                </div>
+              </div>
+              <div class="_content">
+                <h2></h2>
+                <p></p>
+              </div>
+              <div class="icon-bottom"><a href="#"><img src="https://porsche-vietnam.vn/wp-content/themes/porsche-2018/images/share.png"></a></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- end -->
+        <!-- <div class="m-132-button-bar content-full-width" style="text-align:right;">
+            <a href="social-media/social-media.html" class="gui-btn gui-link-with-article">
+            <span>Xem thêm</span>
+         </a>
+        </div> -->
+    </div>
+</div>
+
+
+
+<!--EndContent-->
+<script type="text/javascript">
+  jQuery(document).ready(function($){
+    $('#stry-widget-slide').slick({
+        infinite: false,
+        slidesToShow: 3,
+        dots: false,
+        slidesToScroll: 1,
+        speed: 1200,
+        responsive: [
+            {
+              breakpoint: 991,
+              settings: {
+                slidesToShow: 2,
+                autoplay: true,
+                autoplaySpeed: 4000,
+              }
+            },
+            {
+              breakpoint: 700,
+              settings: {
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 4000,
+              }
+            }
+        ]
+    });
+    
+    $('.stry-widget-popup .stry-popup-close').click(function(){
+      $('.stry-widget-popup').css('display','none');
+    })
+  });
+</script>
+	
+<div class="m-03-related-links footer">
+  <div id="m-03-related-links-content" class="m-03-context">
+    <hr />
+    
+    <div class="m-09-column">
+        <div class="clearfix">
+          <h4>Thông tin liên lạc:</h4>
+<div class="showroom-info clearfix">
+<h5><strong>Porsche Việt Nam</strong></h5>
+<p>Liên hệ chung: <a href="mailto:info@porsche-vietnam.com">info@porsche-vietnam.com</a></p>
+<p>Dịch vụ Khách hàng: <a href="mailto:crm@porsche-vietnam.com">crm@porsche-vietnam.com</a></p>
+<h5><strong>Các Trung Tâm Porsche</strong></h5>
+<p><a href="https://porsche-vietnam.vn/dai-ly/trung-tam-porsche-sai-gon/">Trung Tâm Porsche Sài Gòn</a></p>
+<p><a href="https://porsche-vietnam.vn/dai-ly/trung-tam-porsche-ha-noi/">Trung Tâm Porsche Hà Nội</a></p>
+<p><a href="https://porsche-vietnam.vn/dai-ly/porsche-studio-ha-noi/">Porsche Studio Hà Nội</a></p>
+</div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 showroom-info clearfix">
+                          </div>
+            <div class="col-md-6 showroom-info clearfix">
+                          </div>
+        </div>
+    </div>
+    <div class="m-03-column">
+            <div class="b-sharepanel"><a class="gui-btn-with-icon icon-share"><span>Chia sẻ trang</span></a>
+        <ul>
+          <li>
+            <span class="gui-btn-sm-facebook b-sharing" data-service="facebook" title="Facebook">Facebook</span>
+            <span class="gui-btn-sm-twitter b-sharing" data-service="twitter" title="Twitter">Twitter</span>
+            <span class="gui-btn-sm-linkedin b-sharing" data-service="linkedin" title="LinkedIn">LinkedIn</span>
+            <span class="gui-btn-sm-google b-sharing" data-service="google" title="Google+"><nobr>Google</nobr>+</span>
+            <span class="gui-btn-sm-pinterest b-sharing" data-service="pinterest" title="Pinterest">Pinterest</span>
+          </li>
+        </ul>
+        </div>
+        <div class="m-03-more-about-headline m-03-social-headline">Kết nối với
+            <nobr>Porsche</nobr>
+        </div>
+        <ul>
+          <li><a href="https://www.facebook.com/Official.Porsche.Importer.Vietnam" target="_blank" class="gui-btn-sm-facebook"></a>
+            <a href="https://www.youtube.com/channel/UCvGGsFINhxTQXiwb3pBTomw" target="_blank" class="gui-btn-sm-youtube"></a>
+            <a href="https://www.instagram.com/porsche_vietnam/" class="gui-btn-sm-instagram"></a>
+          </li>
+        </ul>
+    </div>
+    </div>
+</div>
+<div class="m-03-footer-logo">
+    <div class="m-03-context"><a class="m-03-footer-logo-link" href="https://www.porsche.com/pap/_vietnam_/-5Cu0022/pap/_vietnam_/aboutporsche/70-years/sportscartogetherday/_vietnam_.html" title="Porsche Asia Pacific - HOME">HOME</a></div>
+</div>
+<div class="m-03-legal-notice">
+    <div class="m-03-context">
+        <div class="m-03-copyright">
+           <p>© Porsche Việt Nam 2024</p>
+           </br><u><a href="https://porsche-vietnam.vn/chinh-sach-quyen-rieng-tu/">Chính sách quyền riêng tư</a></u>
+        </div>
+    </div>
+</div>
+<div id="zoomImageShade"></div>
+<div id="knowledgeBaseShade"></div>
+<div id="knowledgeBase"></div>
+<div id="divPopupShade"></div>
+<div id="divPopup"></div>
+</div>
+<script type="text/javascript">
+  jQuery(document).ready(function($){
+    // js header scroll
+    var fixHeader = $('.m-01-main-navigation').offset().top;
+    $(window).scroll(function() {
+     var currentScroll = $(window).scrollTop();
+      if (currentScroll > fixHeader) {
+        $('.m-01-main-navigation').addClass('header-scroll-fixed');
+      } else {
+        $('.m-01-main-navigation').removeClass('header-scroll-fixed');
+      }
+    });
+    // js tollbar scroll
+    if($('.page_sticky-wrapper').length > 0)
+    {
+      var screen_width = $(window).width();
+      var fixmeTop = $('.page_sticky-wrapper').offset().top;
+      
+        $(window).scroll(function() {
+          var currentScroll = $(window).scrollTop();
+          if(screen_width > 700){
+            if (currentScroll >= fixmeTop) {
+              $('.page_sticky-wrapper').css({
+                position: 'fixed',
+                top: '88px',
+                left: '0'
+              });
+            } else {
+              $('.page_sticky-wrapper').css({
+                position: 'static',
+                top: '0',
+              });
+            }
+          }else{
+            if (currentScroll >= fixmeTop) {
+              $('.page_sticky-wrapper').css({
+                position: 'fixed',
+                top: '0',
+                left: '0'
+              });
+            } else {
+              $('.page_sticky-wrapper').css({
+                position: 'static',
+              });
+            }
+          }
+        });
+    }
+    
+   
+   
+  });
+</script>
+
+<!-- <script src="https://www.porsche.com/res/LwAAAB-LCAAAAAAABAAzsDQyMTRLtLAwT0o0SzU3NEg1tkxONTSzSDE0TjO0NLXWD04uyiwo0S9JTNfLKgYACmAWdS8AAAA1/tagmin.min.js" defer="defer"></script>
+
+<script src="https://www.porsche.com/res/LwAAAB-LCAAAAAAABAAzsDQyMTRLtLAwT0o0SzU3NEg1tkxONTSzSDE0TjO0NLXWD04uyiwo0S9JTNfLKgYACmAWdS8AAAA1/tagmin.min.js" defer="defer"></script> -->
+  <script src="https://porsche-vietnam.vn/wp-content/themes/porsche-2018/res/libs-bottom.js" defer="defer"></script>
+
+<script src="https://porsche-vietnam.vn/wp-content/themes/porsche-2018/js/tagmin.min.js" defer="defer"></script>
+
+
+
+
+</body>
+
 </html>
